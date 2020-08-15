@@ -7,15 +7,15 @@
   
   <title>XLT876</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="#在python中输入参数有两种，元组和字典#文档 xxx.__doc__ 与help() 显示对应在模块开头，函数定义下方添加 多态 继承 封装 多态相同的方法可以有不同的结果 继承class aa(list)类aa继承list的属性和方法，同名的子类覆盖父类 封装只用关注对象的方法和属性而不用关注其如何实现类(class)命名开头大写，属性用名词，方法用动词 selfself  相当于c++的">
+  <meta name="description" content="命令1gdb .&#x2F;omprsdft.x 显示源码12llist 断点 设置12b &quot;a function name, a line number,or an address of an instruction&quot;break  查看1info break [n] 维护  delete、clear、disable、enable 运行12rrun">
 <meta property="og:type" content="article">
 <meta property="og:title" content="XLT876">
-<meta property="og:url" content="http://yoursite.com/2020/08/15/git_command/python/index.html">
+<meta property="og:url" content="http://yoursite.com/2020/08/15/gdb%E8%AE%B0%E5%BD%95/index.html">
 <meta property="og:site_name" content="XLT876">
-<meta property="og:description" content="#在python中输入参数有两种，元组和字典#文档 xxx.__doc__ 与help() 显示对应在模块开头，函数定义下方添加 多态 继承 封装 多态相同的方法可以有不同的结果 继承class aa(list)类aa继承list的属性和方法，同名的子类覆盖父类 封装只用关注对象的方法和属性而不用关注其如何实现类(class)命名开头大写，属性用名词，方法用动词 selfself  相当于c++的">
+<meta property="og:description" content="命令1gdb .&#x2F;omprsdft.x 显示源码12llist 断点 设置12b &quot;a function name, a line number,or an address of an instruction&quot;break  查看1info break [n] 维护  delete、clear、disable、enable 运行12rrun">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-08-15T14:48:30.288Z">
-<meta property="article:modified_time" content="2020-08-15T14:48:30.288Z">
+<meta property="article:published_time" content="2020-08-15T14:59:54.977Z">
+<meta property="article:modified_time" content="2020-08-15T14:59:54.977Z">
 <meta property="article:author" content="xlt876">
 <meta name="twitter:card" content="summary">
   
@@ -66,10 +66,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-git_command/python" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-gdb记录" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/08/15/git_command/python/" class="article-date">
-  <time datetime="2020-08-15T14:48:30.288Z" itemprop="datePublished">2020-08-15</time>
+    <a href="/2020/08/15/gdb%E8%AE%B0%E5%BD%95/" class="article-date">
+  <time datetime="2020-08-15T14:59:54.977Z" itemprop="datePublished">2020-08-15</time>
 </a>
     
   </div>
@@ -78,26 +78,18 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>#在python中输入参数有两种，元组和字典<br>#文档 xxx.__doc__ 与help() 显示对应<br>在模块开头，函数定义下方添加</p>
-<h2 id="多态-继承-封装"><a href="#多态-继承-封装" class="headerlink" title="多态 继承 封装"></a>多态 继承 封装</h2><ul>
-<li>多态<br>相同的方法可以有不同的结果</li>
-<li>继承<br><code>class aa(list)</code><br>类aa继承list的属性和方法，同名的子类覆盖父类</li>
-<li>封装<br>只用关注对象的方法和属性而不用关注其如何实现<h2 id="类-class"><a href="#类-class" class="headerlink" title="类(class)"></a>类(class)</h2>命名开头大写，属性用名词，方法用动词</li>
-<li>self<br>self  相当于c++的this指针，实例化对象时指明对象本身，用于设置及处理对象独有的性质<br>方法第一个参数设为self，不然实例化后无法调用，即 绑定<br>self不用做为参数专门传入，调用时自动传入</li>
-<li>magic method(魔法方法)<br>被双下划线包围<ul>
-<li>__init__(self) 构造方法 </li>
-<li>__dict__ 显示实例对象的属性，不显示类属型和特殊属性</li>
-</ul>
-</li>
-<li>__name 私有变量、私有函数<br>伪私有，通过**_类名__私有变量(函数)**可调用</li>
-<li>类 类对象 实例对象，不操作就仅是指针<br>同名的属性会覆盖方法</li>
-<li>组合<br>在类中实例化类，</li>
+        <h2 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gdb .&#x2F;omprsdft.x</span><br></pre></td></tr></table></figure>
+<h3 id="显示源码"><a href="#显示源码" class="headerlink" title="显示源码"></a>显示源码</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">l</span><br><span class="line">list</span><br></pre></td></tr></table></figure>
+<h3 id="断点"><a href="#断点" class="headerlink" title="断点"></a>断点</h3><ul>
+<li><h4 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">b &quot;a function name, a line number,or an address of an instruction&quot;</span><br><span class="line">break </span><br></pre></td></tr></table></figure></li>
+<li><h4 id="查看"><a href="#查看" class="headerlink" title="查看"></a>查看</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">info break [n]</span><br></pre></td></tr></table></figure></li>
+<li><h4 id="维护"><a href="#维护" class="headerlink" title="维护"></a>维护</h4>  delete、clear、disable、enable <h3 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">r</span><br><span class="line">run</span><br></pre></td></tr></table></figure></li>
 </ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/08/15/git_command/python/" data-id="ckdvs1oj80003ubuuc3kq2e8b" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/08/15/gdb%E8%AE%B0%E5%BD%95/" data-id="ckdvsgx4u00029suu64t74v24" class="article-share-link">Share</a>
       
       
     </footer>
@@ -106,7 +98,7 @@
     
 <nav id="article-nav">
   
-    <a href="/2020/08/15/git_command/git%E5%91%BD%E4%BB%A4/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2020/08/15/debug%E8%AE%B0%E5%BD%95/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
@@ -116,7 +108,7 @@
     </a>
   
   
-    <a href="/2020/08/15/git_command/gdb%E8%AE%B0%E5%BD%95/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2020/08/15/git%E5%91%BD%E4%BB%A4/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
       <div class="article-nav-title"></div>
     </a>
@@ -155,23 +147,23 @@
       <ul>
         
           <li>
-            <a href="/2020/08/15/git_command/SUMMARY/">(no title)</a>
+            <a href="/2020/08/15/SUMMARY/">git_command</a>
           </li>
         
           <li>
-            <a href="/2020/08/15/git_command/debug%E8%AE%B0%E5%BD%95/">(no title)</a>
+            <a href="/2020/08/15/debug%E8%AE%B0%E5%BD%95/">(no title)</a>
           </li>
         
           <li>
-            <a href="/2020/08/15/git_command/git%E5%91%BD%E4%BB%A4/">(no title)</a>
+            <a href="/2020/08/15/gdb%E8%AE%B0%E5%BD%95/">(no title)</a>
           </li>
         
           <li>
-            <a href="/2020/08/15/git_command/python/">(no title)</a>
+            <a href="/2020/08/15/git%E5%91%BD%E4%BB%A4/">(no title)</a>
           </li>
         
           <li>
-            <a href="/2020/08/15/git_command/gdb%E8%AE%B0%E5%BD%95/">(no title)</a>
+            <a href="/2020/08/15/python/">(no title)</a>
           </li>
         
       </ul>
