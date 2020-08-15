@@ -64,46 +64,340 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-git_command/SUMMARY" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/08/15/hello-world/" class="article-date">
-  <time datetime="2020-08-15T13:09:32.151Z" itemprop="datePublished">2020-08-15</time>
+    <a href="/2020/08/15/git_command/SUMMARY/" class="article-date">
+  <time datetime="2020-08-15T14:48:30.288Z" itemprop="datePublished">2020-08-15</time>
 </a>
     
   </div>
   <div class="article-inner">
     
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/08/15/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+        <ul>
+<li><a href="git%E5%91%BD%E4%BB%A4.md">git命令</a></li>
+<li><a href="shell%E5%91%BD%E4%BB%A4.md">shell命令</a></li>
+<li><a href="debug%E8%AE%B0%E5%BD%95.md">debug记录</a></li>
+<li><a href="%E9%97%AE%E9%A2%98.md">问题</a><ul>
+<li><a href="%E6%97%A0%E6%A0%87%E9%A2%98.md">无标题</a></li>
+</ul>
+</li>
+<li><a href="gdb%E8%AE%B0%E5%BD%95.md">gdb记录</a></li>
+<li><a href="scalapack.md">scalapack</a></li>
+<li><a href="%E4%B8%8D%E5%8A%A0%E6%95%B4%E7%90%86%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7.md">不加整理的奇技淫巧</a></li>
+<li><a href="python.md">python</a></li>
+<li><a href="%E5%9B%A2%E7%B0%87.md">团簇</a></li>
+</ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/08/15/hello-world/" data-id="ckdvpzbsr0000gpuugrjm3imu" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/08/15/git_command/SUMMARY/" data-id="ckdvs1oj30000ubuu4xo1b1kg" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-git_command/debug记录" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/08/15/git_command/debug%E8%AE%B0%E5%BD%95/" class="article-date">
+  <time datetime="2020-08-15T14:48:30.288Z" itemprop="datePublished">2020-08-15</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="数组维度边界未正确设置，查看边界："><a href="#数组维度边界未正确设置，查看边界：" class="headerlink" title="数组维度边界未正确设置，查看边界："></a>数组维度边界未正确设置，查看边界：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print*,lbound(array,dim&#x3D;2),ubound(array,dim&#x3D;2)</span><br></pre></td></tr></table></figure>
+<h2 id="if判断考虑不周，增加了代码的混乱"><a href="#if判断考虑不周，增加了代码的混乱" class="headerlink" title="if判断考虑不周，增加了代码的混乱"></a>if判断考虑不周，增加了代码的混乱</h2><ul>
+<li>然而我没有办法<h2 id="调用子程序segmentation-fault-，子程序初始化变量内存出错，local的变量"><a href="#调用子程序segmentation-fault-，子程序初始化变量内存出错，local的变量" class="headerlink" title="调用子程序segmentation fault ，子程序初始化变量内存出错，local的变量"></a>调用子程序segmentation fault ，子程序初始化变量内存出错，local的变量</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ulimit -s unlimited</span><br></pre></td></tr></table></figure></li>
+<li>出乎意料的bug，方向错了，不是回退版本也发现不了<h2 id="有时候能算对，有时候算不对，输出出来没问题，在程序里莫名值就变了"><a href="#有时候能算对，有时候算不对，输出出来没问题，在程序里莫名值就变了" class="headerlink" title="有时候能算对，有时候算不对，输出出来没问题，在程序里莫名值就变了"></a>有时候能算对，有时候算不对，输出出来没问题，在程序里莫名值就变了</h2>通讯的时候isend没有wait，可能没有send完就开始赋值，导致数组值不对，所以一加mpi_barrier就能算对<h2 id="nonlocal-force-算的不对"><a href="#nonlocal-force-算的不对" class="headerlink" title="nonlocal force 算的不对"></a>nonlocal force 算的不对</h2>少通讯了一个变量，计算结果不对正常<h2 id="添加自动设置孤立体系半径，lat-mat没改引起bug"><a href="#添加自动设置孤立体系半径，lat-mat没改引起bug" class="headerlink" title="添加自动设置孤立体系半径，lat_mat没改引起bug"></a>添加自动设置孤立体系半径，lat_mat没改引起bug</h2>这是编写思路的问题，应该按独立模块来写，或者要确保所有相关变量的更改<h2 id="并行用直角坐标报错"><a href="#并行用直角坐标报错" class="headerlink" title="并行用直角坐标报错"></a>并行用直角坐标报错</h2>加了参数没有通讯，新加参数一定及时通讯<h2 id="数组赋值报错堆栈错误，有traceback，无其他信息"><a href="#数组赋值报错堆栈错误，有traceback，无其他信息" class="headerlink" title="数组赋值报错堆栈错误，有traceback，无其他信息"></a>数组赋值报错堆栈错误，有traceback，无其他信息</h2>给定数组维度对数组赋值，传入数组维度不对</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/08/15/git_command/debug%E8%AE%B0%E5%BD%95/" data-id="ckdvs1oj60001ubuu33decbg3" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-git_command/git命令" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/08/15/git_command/git%E5%91%BD%E4%BB%A4/" class="article-date">
+  <time datetime="2020-08-15T14:48:30.288Z" itemprop="datePublished">2020-08-15</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="追加提交"><a href="#追加提交" class="headerlink" title="追加提交"></a>追加提交</h2><p>git add .<br>git commit –amend</p>
+<h2 id="撤销提交"><a href="#撤销提交" class="headerlink" title="撤销提交"></a>撤销提交</h2><p>checkout</p>
+<h2 id="暂存"><a href="#暂存" class="headerlink" title="暂存"></a>暂存</h2><p>stash</p>
+<h2 id="创建并切换分支"><a href="#创建并切换分支" class="headerlink" title="创建并切换分支"></a>创建并切换分支</h2><p>git checkout -b branch_name </p>
+<ul>
+<li>切换分支<br><code>git checkout branch_name</code></li>
+<li>查看分支<br><code>git branch</code><h2 id="将A分支的某次提交‘合并-提交-’到分支B"><a href="#将A分支的某次提交‘合并-提交-’到分支B" class="headerlink" title="将A分支的某次提交‘合并(提交)’到分支B"></a>将A分支的某次提交‘合并(提交)’到分支B</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git checkout B</span><br><span class="line">git log  #get the commitID</span><br><span class="line">git checkout A</span><br><span class="line">git cherry-pick xxxxxx # xxxxxx refer the commitID</span><br></pre></td></tr></table></figure>
+<h2 id="reset"><a href="#reset" class="headerlink" title="reset ??"></a>reset ??</h2></li>
+</ul>
+<h1 id="远程"><a href="#远程" class="headerlink" title="远程"></a>远程</h1><h2 id="查看远程仓库"><a href="#查看远程仓库" class="headerlink" title="查看远程仓库"></a>查看远程仓库</h2><p>git remote -v</p>
+<h2 id="添加远程仓库"><a href="#添加远程仓库" class="headerlink" title="添加远程仓库"></a>添加远程仓库</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin url&#x2F;to&#x2F;your&#x2F;fork</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/08/15/git_command/git%E5%91%BD%E4%BB%A4/" data-id="ckdvs1oj80002ubuugv1ueb28" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-git_command/python" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/08/15/git_command/python/" class="article-date">
+  <time datetime="2020-08-15T14:48:30.288Z" itemprop="datePublished">2020-08-15</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>#在python中输入参数有两种，元组和字典<br>#文档 xxx.__doc__ 与help() 显示对应<br>在模块开头，函数定义下方添加</p>
+<h2 id="多态-继承-封装"><a href="#多态-继承-封装" class="headerlink" title="多态 继承 封装"></a>多态 继承 封装</h2><ul>
+<li>多态<br>相同的方法可以有不同的结果</li>
+<li>继承<br><code>class aa(list)</code><br>类aa继承list的属性和方法，同名的子类覆盖父类</li>
+<li>封装<br>只用关注对象的方法和属性而不用关注其如何实现<h2 id="类-class"><a href="#类-class" class="headerlink" title="类(class)"></a>类(class)</h2>命名开头大写，属性用名词，方法用动词</li>
+<li>self<br>self  相当于c++的this指针，实例化对象时指明对象本身，用于设置及处理对象独有的性质<br>方法第一个参数设为self，不然实例化后无法调用，即 绑定<br>self不用做为参数专门传入，调用时自动传入</li>
+<li>magic method(魔法方法)<br>被双下划线包围<ul>
+<li>__init__(self) 构造方法 </li>
+<li>__dict__ 显示实例对象的属性，不显示类属型和特殊属性</li>
+</ul>
+</li>
+<li>__name 私有变量、私有函数<br>伪私有，通过**_类名__私有变量(函数)**可调用</li>
+<li>类 类对象 实例对象，不操作就仅是指针<br>同名的属性会覆盖方法</li>
+<li>组合<br>在类中实例化类，</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/08/15/git_command/python/" data-id="ckdvs1oj80003ubuuc3kq2e8b" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-git_command/gdb记录" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/08/15/git_command/gdb%E8%AE%B0%E5%BD%95/" class="article-date">
+  <time datetime="2020-08-15T14:48:30.288Z" itemprop="datePublished">2020-08-15</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gdb .&#x2F;omprsdft.x</span><br></pre></td></tr></table></figure>
+<h3 id="显示源码"><a href="#显示源码" class="headerlink" title="显示源码"></a>显示源码</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">l</span><br><span class="line">list</span><br></pre></td></tr></table></figure>
+<h3 id="断点"><a href="#断点" class="headerlink" title="断点"></a>断点</h3><ul>
+<li><h4 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">b &quot;a function name, a line number,or an address of an instruction&quot;</span><br><span class="line">break </span><br></pre></td></tr></table></figure></li>
+<li><h4 id="查看"><a href="#查看" class="headerlink" title="查看"></a>查看</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">info break [n]</span><br></pre></td></tr></table></figure></li>
+<li><h4 id="维护"><a href="#维护" class="headerlink" title="维护"></a>维护</h4>  delete、clear、disable、enable <h3 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">r</span><br><span class="line">run</span><br></pre></td></tr></table></figure></li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/08/15/git_command/gdb%E8%AE%B0%E5%BD%95/" data-id="ckdvs1oj90004ubuugxgf6is0" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-git_command/scalapack" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/08/15/git_command/scalapack/" class="article-date">
+  <time datetime="2020-08-15T14:48:30.288Z" itemprop="datePublished">2020-08-15</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="scalapack库使用注意事项"><a href="#scalapack库使用注意事项" class="headerlink" title="scalapack库使用注意事项"></a>scalapack库使用注意事项</h1><p>老老实实看说明，测试例子是最快的</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/08/15/git_command/scalapack/" data-id="ckdvs1oja0005ubuu1vzueqio" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-git_command/shell命令" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/08/15/git_command/shell%E5%91%BD%E4%BB%A4/" class="article-date">
+  <time datetime="2020-08-15T14:48:30.288Z" itemprop="datePublished">2020-08-15</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="phonopy-扩胞"><a href="#phonopy-扩胞" class="headerlink" title="phonopy 扩胞"></a>phonopy 扩胞</h2><p><code>phonopy -d --dim=&#39;10 10 10&#39;</code><br>-d displacement 不明白这个参数为什么必要</p>
+<h2 id="python-查看帮助"><a href="#python-查看帮助" class="headerlink" title="python 查看帮助"></a>python 查看帮助</h2><ul>
+<li>pydoc</li>
+<li>intercative help utility<h2 id="apt-get-update-info-prompt-some-error"><a href="#apt-get-update-info-prompt-some-error" class="headerlink" title="apt-get update info prompt some error"></a>apt-get update info prompt some error</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd &#x2F;etc&#x2F;apt&#x2F;</span><br><span class="line">vi source.list   # if find no error, try grep the info in all files belong to the apt&#x2F;</span><br></pre></td></tr></table></figure>
+<h2 id="system-clipboard"><a href="#system-clipboard" class="headerlink" title="system clipboard"></a>system clipboard</h2><code>xxx |xsel -b -s -p[default]</code><h2 id="awk使用举例"><a href="#awk使用举例" class="headerlink" title="awk使用举例"></a>awk使用举例</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">for a in $(ls -d [1-8]*);do echo $a ;cat $&#123;a&#125;&#x2F;1&#x2F;cp2k.inp |awk &#39;&#x2F;ABC&#x2F;&#123;printf &quot;%s\n%3.1f\n %15.10f%15.10f%15.10f\n%15.10f%15.10f%15.10f\n%15.10f%15.10f%15.10f\n%s\n%d\n%s\n&quot;,&quot;B20&quot;,1.0,$2,0,0,0,$3,0,0,0,$3,&quot;B&quot;,20,&quot;Dir&quot;&#125; &#x2F;&amp;END COORD&#x2F;&#123;p&#x3D;0&#125; &#123;if(p&#x3D;&#x3D;1)&#123;print $2,$3,$4&#125;&#125; &#x2F;SCALED&#x2F;&#123;p&#x3D;1&#125;&#39; &gt; POSCAR_$&#123;a&#125;; done</span><br></pre></td></tr></table></figure>
+真长啊，终端里反斜杠换行不熟练</li>
+</ul>
+<h2 id="xargs"><a href="#xargs" class="headerlink" title="xargs"></a>xargs</h2><p><code>du -h --summarize ./* |grep &quot;^0&quot;|cut -f2| xargs ls</code><br>删除当前目录下大小为0的文件</p>
+<h2 id="替换castep文件名"><a href="#替换castep文件名" class="headerlink" title="替换castep文件名"></a>替换castep文件名</h2><p><code>for i in $(ls C.*) ;do mv $&#123;i&#125; O.$&#123;i##*.&#125; ;done</code><br>C.开头的文件换成O开头<br><code>for i in $(ls out*);do cp $&#123;i&#125; ../pot/pot_Ti/Ti$&#123;i##out&#125; ;done</code></p>
+<h2 id="替换文件内部字符"><a href="#替换文件内部字符" class="headerlink" title="替换文件内部字符"></a>替换文件内部字符</h2><p><code>sed -i &#39;s/Au/C/g&#39; ARES.CONT_*</code></p>
+<h2 id="xarg的奇怪应用"><a href="#xarg的奇怪应用" class="headerlink" title="xarg的奇怪应用"></a>xarg的奇怪应用</h2><p><code>for i in $(cat parsecPOS );do bohr2angs $i;done |xargs -n 3</code></p>
+<h2 id="并行环境的设置"><a href="#并行环境的设置" class="headerlink" title="并行环境的设置"></a>并行环境的设置</h2><p>echo 0 |sudo tee /proc/sys/kernel/yama/ptrace_scope<br>## 查看静态库的内容</p>
+<ul>
+<li>查看文件：<code>ar -t \*.a</code></li>
+<li>查看函数、变量：<code>nm \*.a</code></li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/08/15/git_command/shell%E5%91%BD%E4%BB%A4/" data-id="ckdvs1oja0006ubuu2w5r6nhq" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-git_command/不加整理的奇技淫巧" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/08/15/git_command/%E4%B8%8D%E5%8A%A0%E6%95%B4%E7%90%86%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/" class="article-date">
+  <time datetime="2020-08-15T14:48:30.288Z" itemprop="datePublished">2020-08-15</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="awk后单引号括起来的命令本质上是防止被shell转义的awk语句"><a href="#awk后单引号括起来的命令本质上是防止被shell转义的awk语句" class="headerlink" title="awk后单引号括起来的命令本质上是防止被shell转义的awk语句"></a>awk后单引号括起来的命令本质上是防止被shell转义的awk语句</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">aa&#x3D;&quot;aaa&quot;</span><br><span class="line">awk &#39;xxxxxx; print &quot;&#39; $aa &#39;&quot;xxxxxx&#39; #错误</span><br><span class="line">awk &#39;xxxxxx; print &quot;&#39;$aa&#39;&quot;xxxxxx&#39; #中间单引号与变量之间的空格会被shell当分隔符处理</span><br><span class="line">awk &#39;xxxxxx; print &quot;    &#39;$aa&#39;  &quot;xxxxxx&#39; #在两边加空格</span><br><span class="line">aa&#x3D;&quot;aaa bbb&quot;</span><br><span class="line">awk &#39;xxxxxx; print &quot;&#39;” $aa “&#39;&quot;xxxxxx&#39; #变量内有空格</span><br></pre></td></tr></table></figure>
+<h2 id="显示文件的一部分内容"><a href="#显示文件的一部分内容" class="headerlink" title="显示文件的一部分内容"></a>显示文件的一部分内容</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sed -n &#39;x,yp&#39; filename #输出指定文件x行到y行的内容</span><br></pre></td></tr></table></figure>
+<h2 id="ubuntu-查看ipynb文件"><a href="#ubuntu-查看ipynb文件" class="headerlink" title="ubuntu 查看ipynb文件"></a>ubuntu 查看ipynb文件</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">jupyter notebook</span><br></pre></td></tr></table></figure>
+<p>启动服务后浏览器查看</p>
+<h2 id="0"><a href="#0" class="headerlink" title="$0"></a>$0</h2><p>在只检索PATH的命令里调用自身</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/08/15/git_command/%E4%B8%8D%E5%8A%A0%E6%95%B4%E7%90%86%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/" data-id="ckdvs1ojb0007ubuu7ix16cif" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-git_command/无标题" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/08/15/git_command/%E6%97%A0%E6%A0%87%E9%A2%98/" class="article-date">
+  <time datetime="2020-08-15T14:48:30.288Z" itemprop="datePublished">2020-08-15</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="任意形状网格的hartree势求解"><a href="#任意形状网格的hartree势求解" class="headerlink" title="任意形状网格的hartree势求解"></a>任意形状网格的hartree势求解</h2><p>isf方法究竟是如何实现的</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/08/15/git_command/%E6%97%A0%E6%A0%87%E9%A2%98/" data-id="ckdvs1ojc0008ubuu16dx68q7" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-git_command/团簇" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/08/15/git_command/%E5%9B%A2%E7%B0%87/" class="article-date">
+  <time datetime="2020-08-15T14:48:30.288Z" itemprop="datePublished">2020-08-15</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="ARES-计算团簇-h-BN-或其他"><a href="#ARES-计算团簇-h-BN-或其他" class="headerlink" title="ARES 计算团簇 h-BN 或其他"></a>ARES 计算团簇 h-BN 或其他</h1><h2 id="金原子的STO轨道屏蔽系数"><a href="#金原子的STO轨道屏蔽系数" class="headerlink" title="金原子的STO轨道屏蔽系数"></a>金原子的STO轨道屏蔽系数</h2><p>zeta=(z-sigma)/n^*<br>zeta: 轨道指数 z: 核电荷 sigma: 屏蔽常数 n^*: 有效主量子数</p>
+<h2 id="Slater-规则"><a href="#Slater-规则" class="headerlink" title="Slater 规则"></a>Slater 规则</h2><ol>
+<li>将核外电子按主量子数n和角量子数l分组 1s,2s2p,3s3p,3d,4s4p,4d,4f,5s5p,5d,5f,6s6p,6d,6f,7s7p,7d,7f</li>
+<li>外层各组电子对内层各组电子不产生屏蔽，sigma=0</li>
+<li>1s同组电子间屏蔽常数sigma为0.30，其余同组电子屏蔽常数为0.35</li>
+<li>相邻两组之间，对nsnp电子，主量子数为(n-1)的各组每个电子对外组每个电子的屏蔽常数sigma为0.85，更内组屏蔽常数为1。对于外组df电子，不论是相邻内组还是更内组的每个电子，对它的屏蔽常数都是sigma=1</li>
+<li>有效主量子数n<em>与主量子数n的对应关系为<br>n      1 , 2 , 3 , 4 , 5 , 6<br>n^</em>   1 , 2 , 3 , 3.7 , 4.0 , 4.2</li>
+</ol>
+<h2 id="例"><a href="#例" class="headerlink" title="例"></a>例</h2><p>Au 79  5d10|6s1<br>1s2|2s2|2p6|3s2|3p6|3d10|4s2|4p6|4d10|4f14|5s2|5p6|5d10|6s1<br>2 8 18 32 18 1<br>5d10 : 79-(9*0.35)-(2+8+18+32)*1</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/08/15/git_command/%E5%9B%A2%E7%B0%87/" data-id="ckdvs1ojd0009ubuu5zwahecm" class="article-share-link">Share</a>
       
       
     </footer>
@@ -114,6 +408,11 @@
 
   
 
+
+  <nav id="page-nav">
+    
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &amp;raquo;</a>
+  </nav>
 
 </section>
         
@@ -144,7 +443,23 @@
       <ul>
         
           <li>
-            <a href="/2020/08/15/hello-world/">Hello World</a>
+            <a href="/2020/08/15/git_command/SUMMARY/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/08/15/git_command/debug%E8%AE%B0%E5%BD%95/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/08/15/git_command/git%E5%91%BD%E4%BB%A4/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/08/15/git_command/python/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/08/15/git_command/gdb%E8%AE%B0%E5%BD%95/">(no title)</a>
           </li>
         
       </ul>
