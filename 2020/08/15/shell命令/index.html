@@ -15,7 +15,7 @@
 <meta property="og:description" content="phonopy 扩胞phonopy -d --dim&#x3D;&#39;10 10 10&#39;-d displacement 不明白这个参数为什么必要 python 查看帮助 pydoc intercative help utilityapt-get update info prompt some error12cd &#x2F;etc&#x2F;apt&#x2F;vi source.list   #">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-08-15T14:59:54.977Z">
-<meta property="article:modified_time" content="2020-08-15T14:59:54.977Z">
+<meta property="article:modified_time" content="2020-08-17T02:20:32.508Z">
 <meta property="article:author" content="xlt876">
 <meta name="twitter:card" content="summary">
   
@@ -85,15 +85,16 @@
 <h2 id="system-clipboard"><a href="#system-clipboard" class="headerlink" title="system clipboard"></a>system clipboard</h2><code>xxx |xsel -b -s -p[default]</code><h2 id="awk使用举例"><a href="#awk使用举例" class="headerlink" title="awk使用举例"></a>awk使用举例</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">for a in $(ls -d [1-8]*);do echo $a ;cat $&#123;a&#125;&#x2F;1&#x2F;cp2k.inp |awk &#39;&#x2F;ABC&#x2F;&#123;printf &quot;%s\n%3.1f\n %15.10f%15.10f%15.10f\n%15.10f%15.10f%15.10f\n%15.10f%15.10f%15.10f\n%s\n%d\n%s\n&quot;,&quot;B20&quot;,1.0,$2,0,0,0,$3,0,0,0,$3,&quot;B&quot;,20,&quot;Dir&quot;&#125; &#x2F;&amp;END COORD&#x2F;&#123;p&#x3D;0&#125; &#123;if(p&#x3D;&#x3D;1)&#123;print $2,$3,$4&#125;&#125; &#x2F;SCALED&#x2F;&#123;p&#x3D;1&#125;&#39; &gt; POSCAR_$&#123;a&#125;; done</span><br></pre></td></tr></table></figure>
 真长啊，终端里反斜杠换行不熟练</li>
 </ul>
-<h2 id="xargs"><a href="#xargs" class="headerlink" title="xargs"></a>xargs</h2><p><code>du -h --summarize ./* |grep &quot;^0&quot;|cut -f2| xargs ls</code><br>删除当前目录下大小为0的文件</p>
-<h2 id="替换castep文件名"><a href="#替换castep文件名" class="headerlink" title="替换castep文件名"></a>替换castep文件名</h2><p><code>for i in $(ls C.*) ;do mv $&#123;i&#125; O.$&#123;i##*.&#125; ;done</code><br>C.开头的文件换成O开头<br><code>for i in $(ls out*);do cp $&#123;i&#125; ../pot/pot_Ti/Ti$&#123;i##out&#125; ;done</code></p>
-<h2 id="替换文件内部字符"><a href="#替换文件内部字符" class="headerlink" title="替换文件内部字符"></a>替换文件内部字符</h2><p><code>sed -i &#39;s/Au/C/g&#39; ARES.CONT_*</code></p>
-<h2 id="xarg的奇怪应用"><a href="#xarg的奇怪应用" class="headerlink" title="xarg的奇怪应用"></a>xarg的奇怪应用</h2><p><code>for i in $(cat parsecPOS );do bohr2angs $i;done |xargs -n 3</code></p>
-<h2 id="并行环境的设置"><a href="#并行环境的设置" class="headerlink" title="并行环境的设置"></a>并行环境的设置</h2><p>echo 0 |sudo tee /proc/sys/kernel/yama/ptrace_scope<br>## 查看静态库的内容</p>
-<ul>
-<li>查看文件：<code>ar -t \*.a</code></li>
-<li>查看函数、变量：<code>nm \*.a</code></li>
-</ul>
+<h2 id="xargs"><a href="#xargs" class="headerlink" title="xargs"></a>xargs</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">du -h --summarize .&#x2F;* |grep &quot;^0&quot;|cut -f2| xargs ls</span><br></pre></td></tr></table></figure>
+<p>删除当前目录下大小为0的文件</p>
+<h2 id="替换castep文件名"><a href="#替换castep文件名" class="headerlink" title="替换castep文件名"></a>替换castep文件名</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">for i in $(ls C.*) ;do mv $&#123;i&#125; O.$&#123;i##*.&#125; ;done</span><br></pre></td></tr></table></figure>
+<p>C.开头的文件换成O开头</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">for i in $(ls out*);do cp $&#123;i&#125; ..&#x2F;pot&#x2F;pot_Ti&#x2F;Ti$&#123;i##out&#125; ;done</span><br></pre></td></tr></table></figure>
+<h2 id="替换文件内部字符"><a href="#替换文件内部字符" class="headerlink" title="替换文件内部字符"></a>替换文件内部字符</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sed -i &#39;s&#x2F;Au&#x2F;C&#x2F;g&#39; ARES.CONT_*</span><br></pre></td></tr></table></figure>
+<h2 id="xarg的奇怪应用"><a href="#xarg的奇怪应用" class="headerlink" title="xarg的奇怪应用"></a>xarg的奇怪应用</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">for i in $(cat parsecPOS );do bohr2angs $i;done |xargs -n 3</span><br></pre></td></tr></table></figure>
+<h2 id="并行环境的设置"><a href="#并行环境的设置" class="headerlink" title="并行环境的设置"></a>并行环境的设置</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo 0 |sudo tee &#x2F;proc&#x2F;sys&#x2F;kernel&#x2F;yama&#x2F;ptrace_scope</span><br></pre></td></tr></table></figure>
+<h2 id="查看静态库的内容"><a href="#查看静态库的内容" class="headerlink" title="查看静态库的内容"></a>查看静态库的内容</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ar -t \*.a  #查看文件</span><br><span class="line">nm \*.a     #查看函数,变量</span><br></pre></td></tr></table></figure>
+
 
       
     </div>
