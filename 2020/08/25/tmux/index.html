@@ -7,15 +7,15 @@
   
   <title>XLT876</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="#在python中输入参数有两种，元组和字典#文档 xxx.__doc__ 与help() 显示对应在模块开头，函数定义下方添加 多态 继承 封装 多态相同的方法可以有不同的结果 继承class aa(list)类aa继承list的属性和方法，同名的子类覆盖父类 封装只用关注对象的方法和属性而不用关注其如何实现类(class)命名开头大写，属性用名词，方法用动词 selfself  相当于c++的">
+  <meta name="description" content="tmux command logpane move 1234prefix nprefix pprefix l kill pane, window 123prefix x #kill paneprefix &amp; #kill windows# kill session use :kill-session -t rename 12prefix $ #reanme sessionprefix , #">
 <meta property="og:type" content="article">
 <meta property="og:title" content="XLT876">
-<meta property="og:url" content="http://yoursite.com/2020/08/15/python/index.html">
+<meta property="og:url" content="http://yoursite.com/2020/08/25/tmux/index.html">
 <meta property="og:site_name" content="XLT876">
-<meta property="og:description" content="#在python中输入参数有两种，元组和字典#文档 xxx.__doc__ 与help() 显示对应在模块开头，函数定义下方添加 多态 继承 封装 多态相同的方法可以有不同的结果 继承class aa(list)类aa继承list的属性和方法，同名的子类覆盖父类 封装只用关注对象的方法和属性而不用关注其如何实现类(class)命名开头大写，属性用名词，方法用动词 selfself  相当于c++的">
+<meta property="og:description" content="tmux command logpane move 1234prefix nprefix pprefix l kill pane, window 123prefix x #kill paneprefix &amp; #kill windows# kill session use :kill-session -t rename 12prefix $ #reanme sessionprefix , #">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-08-15T14:59:54.977Z">
-<meta property="article:modified_time" content="2020-08-15T14:59:54.977Z">
+<meta property="article:published_time" content="2020-08-25T12:47:22.004Z">
+<meta property="article:modified_time" content="2020-08-25T12:58:48.684Z">
 <meta property="article:author" content="xlt876">
 <meta name="twitter:card" content="summary">
   
@@ -66,10 +66,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-python" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-tmux" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/08/15/python/" class="article-date">
-  <time datetime="2020-08-15T14:59:54.977Z" itemprop="datePublished">2020-08-15</time>
+    <a href="/2020/08/25/tmux/" class="article-date">
+  <time datetime="2020-08-25T12:47:22.004Z" itemprop="datePublished">2020-08-25</time>
 </a>
     
   </div>
@@ -78,26 +78,22 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>#在python中输入参数有两种，元组和字典<br>#文档 xxx.__doc__ 与help() 显示对应<br>在模块开头，函数定义下方添加</p>
-<h2 id="多态-继承-封装"><a href="#多态-继承-封装" class="headerlink" title="多态 继承 封装"></a>多态 继承 封装</h2><ul>
-<li>多态<br>相同的方法可以有不同的结果</li>
-<li>继承<br><code>class aa(list)</code><br>类aa继承list的属性和方法，同名的子类覆盖父类</li>
-<li>封装<br>只用关注对象的方法和属性而不用关注其如何实现<h2 id="类-class"><a href="#类-class" class="headerlink" title="类(class)"></a>类(class)</h2>命名开头大写，属性用名词，方法用动词</li>
-<li>self<br>self  相当于c++的this指针，实例化对象时指明对象本身，用于设置及处理对象独有的性质<br>方法第一个参数设为self，不然实例化后无法调用，即 绑定<br>self不用做为参数专门传入，调用时自动传入</li>
-<li>magic method(魔法方法)<br>被双下划线包围<ul>
-<li>__init__(self) 构造方法 </li>
-<li>__dict__ 显示实例对象的属性，不显示类属型和特殊属性</li>
-</ul>
-</li>
-<li>__name 私有变量、私有函数<br>伪私有，通过**_类名__私有变量(函数)**可调用</li>
-<li>类 类对象 实例对象，不操作就仅是指针<br>同名的属性会覆盖方法</li>
-<li>组合<br>在类中实例化类，</li>
-</ul>
-
+        <h2 id="tmux-command-log"><a href="#tmux-command-log" class="headerlink" title="tmux command log"></a>tmux command log</h2><p>pane move</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">prefix n</span><br><span class="line">prefix p</span><br><span class="line">prefix l</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>kill pane, window</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">prefix x #kill pane</span><br><span class="line">prefix &amp; #kill windows</span><br><span class="line"><span class="meta">#</span><span class="bash"> <span class="built_in">kill</span> session use :<span class="built_in">kill</span>-session -t</span></span><br></pre></td></tr></table></figure>
+<p>rename</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">prefix $ #reanme session</span><br><span class="line">prefix , #rename window</span><br></pre></td></tr></table></figure>
+<p>recorver session</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tmux attach </span><br></pre></td></tr></table></figure>
+<p>leave session</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">prefix d</span><br></pre></td></tr></table></figure>
+<p>show all session and select one</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">prefix s</span><br></pre></td></tr></table></figure>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/08/15/python/" data-id="ckdvsgx4w00059suuf88ecmnw" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/08/25/tmux/" data-id="cke9yhixy0000myuu686r9sob" class="article-share-link">Share</a>
       
       
     </footer>
@@ -106,17 +102,8 @@
     
 <nav id="article-nav">
   
-    <a href="/2020/08/15/git%E5%91%BD%E4%BB%A4/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          (no title)
-        
-      </div>
-    </a>
   
-  
-    <a href="/2020/08/15/scalapack/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2020/08/18/python/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
       <div class="article-nav-title"></div>
     </a>
@@ -155,6 +142,14 @@
       <ul>
         
           <li>
+            <a href="/2020/08/25/tmux/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/08/18/python/">(no title)</a>
+          </li>
+        
+          <li>
             <a href="/2020/08/15/SUMMARY/">git_command</a>
           </li>
         
@@ -164,14 +159,6 @@
         
           <li>
             <a href="/2020/08/15/gdb%E8%AE%B0%E5%BD%95/">(no title)</a>
-          </li>
-        
-          <li>
-            <a href="/2020/08/15/git%E5%91%BD%E4%BB%A4/">(no title)</a>
-          </li>
-        
-          <li>
-            <a href="/2020/08/15/python/">(no title)</a>
           </li>
         
       </ul>
