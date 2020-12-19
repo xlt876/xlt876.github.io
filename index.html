@@ -64,10 +64,10 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-tmux" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-git命令" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/08/31/tmux/" class="article-date">
-  <time datetime="2020-08-31T14:32:14.665Z" itemprop="datePublished">2020-08-31</time>
+    <a href="/2020/12/19/git%E5%91%BD%E4%BB%A4/" class="article-date">
+  <time datetime="2020-12-19T12:43:05.932Z" itemprop="datePublished">2020-12-19</time>
 </a>
     
   </div>
@@ -78,7 +78,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/08/31/tmux/">tmux command log</a>
+      <a class="article-title" href="/2020/12/19/git%E5%91%BD%E4%BB%A4/">git command</a>
     </h1>
   
 
@@ -86,29 +86,27 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>pane move</p>
-<pre class=" language-shell"><code class="language-shell">prefix n
-prefix p
-prefix l
-</code></pre>
-<p>kill pane, window</p>
-<pre class=" language-shell"><code class="language-shell">prefix x #kill pane
-prefix & #kill windows
-# kill session use :kill-session -t</code></pre>
-<p>rename</p>
-<pre class=" language-shell"><code class="language-shell">prefix $ #reanme session
-prefix , #rename window</code></pre>
-<p>recorver session</p>
-<pre class=" language-shell"><code class="language-shell">tmux attach </code></pre>
-<p>leave session</p>
-<pre class=" language-shell"><code class="language-shell">prefix d</code></pre>
-<p>show all session and select one</p>
-<pre class=" language-shell"><code class="language-shell">prefix s</code></pre>
+        <h2 id="追加提交"><a href="#追加提交" class="headerlink" title="追加提交"></a>追加提交</h2><pre class=" language-shell"><code class="language-shell">git add .
+git commit --amend</code></pre>
+<h2 id="撤销提交"><a href="#撤销提交" class="headerlink" title="撤销提交"></a>撤销提交</h2><p>checkout</p>
+<pre class=" language-shell"><code class="language-shell">git reset HEAD</code></pre>
+<h2 id="暂存"><a href="#暂存" class="headerlink" title="暂存"></a>暂存</h2><pre class=" language-shell"><code class="language-shell">git stash</code></pre>
+<h2 id="创建并切换分支"><a href="#创建并切换分支" class="headerlink" title="创建并切换分支"></a>创建并切换分支</h2><pre class=" language-shell"><code class="language-shell">git checkout -b branch_name </code></pre>
+<h2 id="切换分支"><a href="#切换分支" class="headerlink" title="切换分支"></a>切换分支</h2><pre class=" language-shell"><code class="language-shell">git checkout branch_name</code></pre>
+<h2 id="查看分支"><a href="#查看分支" class="headerlink" title="查看分支"></a>查看分支</h2><pre class=" language-shell"><code class="language-shell">git branch</code></pre>
+<h2 id="将A分支的某次提交‘合并-提交-’到分支B"><a href="#将A分支的某次提交‘合并-提交-’到分支B" class="headerlink" title="将A分支的某次提交‘合并(提交)’到分支B"></a>将A分支的某次提交‘合并(提交)’到分支B</h2><pre class=" language-shell"><code class="language-shell">git checkout B
+git log  #get the commitID
+git checkout A
+git cherry-pick xxxxxx # xxxxxx refer the commitID</code></pre>
+<h2 id="删除分支"><a href="#删除分支" class="headerlink" title="删除分支"></a>删除分支</h2><pre class=" language-shell"><code class="language-shell">git branch -d xxxx</code></pre>
+<h2 id="reset"><a href="#reset" class="headerlink" title="reset ??"></a>reset ??</h2><h1 id="远程"><a href="#远程" class="headerlink" title="远程"></a>远程</h1><h2 id="查看远程仓库"><a href="#查看远程仓库" class="headerlink" title="查看远程仓库"></a>查看远程仓库</h2><p>git remote -v</p>
+<h2 id="添加远程仓库"><a href="#添加远程仓库" class="headerlink" title="添加远程仓库"></a>添加远程仓库</h2><pre><code>git remote add origin url/to/your/fork</code></pre>
+<h2 id="本地仓库同步"><a href="#本地仓库同步" class="headerlink" title="本地仓库同步"></a>本地仓库同步</h2><pre class=" language-shell"><code class="language-shell">git  pull ssh://xlt@59.72.114.217:6888/home/xlt/mount/Xlt_Work/Isolate_RS/ares_parallel/src_p</code></pre>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/08/31/tmux/" data-id="ckeimhkm1000bnwuucjm0a56m" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/12/19/git%E5%91%BD%E4%BB%A4/" data-id="ckeimhklw0004nwuu3fcp8j1x" class="article-share-link">Share</a>
       
       
     </footer>
@@ -118,10 +116,10 @@ prefix , #rename window</code></pre>
 
 
   
-    <article id="post-something" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-gdb记录" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/08/31/something/" class="article-date">
-  <time datetime="2020-08-31T14:29:58.984Z" itemprop="datePublished">2020-08-31</time>
+    <a href="/2020/11/20/gdb%E8%AE%B0%E5%BD%95/" class="article-date">
+  <time datetime="2020-11-20T12:40:32.836Z" itemprop="datePublished">2020-11-20</time>
 </a>
     
   </div>
@@ -132,7 +130,7 @@ prefix , #rename window</code></pre>
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/08/31/something/">something</a>
+      <a class="article-title" href="/2020/11/20/gdb%E8%AE%B0%E5%BD%95/">gdb command</a>
     </h1>
   
 
@@ -140,107 +138,25 @@ prefix , #rename window</code></pre>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="任意形状网格的hartree势求解"><a href="#任意形状网格的hartree势求解" class="headerlink" title="任意形状网格的hartree势求解"></a>任意形状网格的hartree势求解</h2><p>isf方法究竟是如何实现的</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/08/31/something/" data-id="ckeimhkm0000anwuubbjz29gr" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-scalapack" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/08/31/scalapack/" class="article-date">
-  <time datetime="2020-08-31T14:29:23.940Z" itemprop="datePublished">2020-08-31</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/08/31/scalapack/">scalapack log</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="scalapack库使用注意事项"><a href="#scalapack库使用注意事项" class="headerlink" title="scalapack库使用注意事项"></a>scalapack库使用注意事项</h2><p>老老实实看说明，测试例子是最快的</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/08/31/scalapack/" data-id="ckeimhkly0007nwuu72axc8ff" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-question" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/08/31/question/" class="article-date">
-  <time datetime="2020-08-31T14:27:33.503Z" itemprop="datePublished">2020-08-31</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/08/31/question/">question</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h3 id="the-world-will-never-be-ready-but-it-will-happen-anyway"><a href="#the-world-will-never-be-ready-but-it-will-happen-anyway" class="headerlink" title="the world will never be ready but it will happen anyway"></a>the world will never be ready but it will happen anyway</h3><h2 id="变量该如何命名"><a href="#变量该如何命名" class="headerlink" title="变量该如何命名"></a>变量该如何命名</h2><ul>
-<li><input checked="" disabled="" type="checkbox"> how this</li>
-<li><input disabled="" type="checkbox"> no no no<br>测试模块要分开写，不然不容易往程序里添加，但测试又很麻烦<br>测试代码和写模块本身就不一样<br>模块的公有变量该不该用，不利于代码的移植啊，麻烦</li>
-</ul>
-<h2 id="预编译"><a href="#预编译" class="headerlink" title="预编译"></a>预编译</h2><ul>
-<li><h3 id="行控制"><a href="#行控制" class="headerlink" title="行控制"></a>行控制</h3><p>  #line __LINE__ __FILE__</p>
+        <h2 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h2><pre><code>gdb ./omprsdft.x</code></pre>
+<h3 id="显示源码"><a href="#显示源码" class="headerlink" title="显示源码"></a>显示源码</h3><pre><code>l
+list</code></pre>
+<h3 id="断点"><a href="#断点" class="headerlink" title="断点"></a>断点</h3><ul>
+<li><h4 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h4><pre><code>b &quot;a function name, a line number,or an address of an instruction&quot;
+break </code></pre>
 </li>
-<li><h3 id="include-‘xxx-h’-优先级如何"><a href="#include-‘xxx-h’-优先级如何" class="headerlink" title="#include ‘xxx.h’ 优先级如何"></a>#include ‘xxx.h’ 优先级如何</h3><ul>
-<li>直接替换文件内容，按预编译语法判断</li>
-</ul>
+<li><h4 id="查看"><a href="#查看" class="headerlink" title="查看"></a>查看</h4><pre><code>info break [n]</code></pre>
+</li>
+<li><h4 id="维护"><a href="#维护" class="headerlink" title="维护"></a>维护</h4>  delete、clear、disable、enable <h3 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h3><pre><code>r
+run</code></pre>
 </li>
 </ul>
-<pre><code>#include &lt;header&gt;
-#include &quot;file&quot;</code></pre>
-<h2 id="org-mode的使用"><a href="#org-mode的使用" class="headerlink" title="org-mode的使用"></a>org-mode的使用</h2><ul>
-<li>C-c . 插入时间</li>
-<li>层级目录 ‘*’+’space’</li>
-<li>TAB键 收放目录</li>
-<li>删除线 ‘-ddd-’</li>
-</ul>
-<h2 id="3核的收敛步数变长又是哪的问题呢，什么导致了误差？"><a href="#3核的收敛步数变长又是哪的问题呢，什么导致了误差？" class="headerlink" title="3核的收敛步数变长又是哪的问题呢，什么导致了误差？"></a>3核的收敛步数变长又是哪的问题呢，什么导致了误差？</h2><p>通讯的问题 ，debug记录第四条</p>
-<h2 id="不同核数自洽的计算步数不同"><a href="#不同核数自洽的计算步数不同" class="headerlink" title="不同核数自洽的计算步数不同"></a>不同核数自洽的计算步数不同</h2><p>scalapack的block_mbnb设置不对</p>
+<h3 id="并行调试"><a href="#并行调试" class="headerlink" title="并行调试"></a>并行调试</h3><p>mpirun -n 4  xfce4-terminal –default-working-directory=<code>pwd</code> -e “gdb ./aa”</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/08/31/question/" data-id="ckeimhkm00009nwuu1v57d7ry" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/11/20/gdb%E8%AE%B0%E5%BD%95/" data-id="ckeimhklv0003nwuu668t5z5z" class="article-share-link">Share</a>
       
       
     </footer>
@@ -250,10 +166,65 @@ prefix , #rename window</code></pre>
 
 
   
-    <article id="post-python" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-MPI_command/MPI_four_fundanmental" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/08/31/python/" class="article-date">
-  <time datetime="2020-08-31T14:27:20.687Z" itemprop="datePublished">2020-08-31</time>
+    <a href="/2020/10/12/MPI_command/MPI_four_fundanmental/" class="article-date">
+  <time datetime="2020-10-12T08:41:03.366Z" itemprop="datePublished">2020-10-12</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="MPI-INIT"><a href="#MPI-INIT" class="headerlink" title="MPI_INIT()"></a>MPI_INIT()</h1><h1 id="MPI-FINALIZE"><a href="#MPI-FINALIZE" class="headerlink" title="MPI_FINALIZE()"></a>MPI_FINALIZE()</h1><h1 id="MPI-COMM-RANK"><a href="#MPI-COMM-RANK" class="headerlink" title="MPI_COMM_RANK()"></a>MPI_COMM_RANK()</h1><h1 id="MPI-COMM-SIZE"><a href="#MPI-COMM-SIZE" class="headerlink" title="MPI_COMM_SIZE()"></a>MPI_COMM_SIZE()</h1>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/10/12/MPI_command/MPI_four_fundanmental/" data-id="ckivpbnos0001wfuuama56kxh" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-MPI_command/MPI_command" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/10/12/MPI_command/MPI_command/" class="article-date">
+  <time datetime="2020-10-12T08:38:26.960Z" itemprop="datePublished">2020-10-12</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="MPI-command"><a href="#MPI-command" class="headerlink" title="MPI_command"></a>MPI_command</h1><p>[TOC] dwdwdwd</p>
+<p><a href="./">dwdw</a></p>
+<p><span id='sss'>./SUMMARY.md</span></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/10/12/MPI_command/MPI_command/" data-id="ckivpbnoq0000wfuu3rodeclw" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-SUMMARY" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/10/12/SUMMARY/" class="article-date">
+  <time datetime="2020-10-12T08:36:22.519Z" itemprop="datePublished">2020-10-12</time>
 </a>
     
   </div>
@@ -264,7 +235,7 @@ prefix , #rename window</code></pre>
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/08/31/python/">python log</a>
+      <a class="article-title" href="/2020/10/12/SUMMARY/">git_command</a>
     </h1>
   
 
@@ -272,27 +243,26 @@ prefix , #rename window</code></pre>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="在python中输入参数有两种，元组和字典"><a href="#在python中输入参数有两种，元组和字典" class="headerlink" title="在python中输入参数有两种，元组和字典"></a>在python中输入参数有两种，元组和字典</h2><h2 id="文档-xxx-doc-与help-显示对应"><a href="#文档-xxx-doc-与help-显示对应" class="headerlink" title="文档 xxx.__doc__ 与help() 显示对应"></a>文档 xxx.__doc__ 与help() 显示对应</h2><p>在模块开头，函数定义下方添加</p>
-<h2 id="多态-继承-封装"><a href="#多态-继承-封装" class="headerlink" title="多态 继承 封装"></a>多态 继承 封装</h2><ul>
-<li>多态<br>相同的方法可以有不同的结果</li>
-<li>继承<pre class=" language-python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">aa</span><span class="token punctuation">(</span>list<span class="token punctuation">)</span></code></pre>
-类aa继承list的属性和方法，同名的子类覆盖父类</li>
-<li>封装<br>只用关注对象的方法和属性而不用关注其如何实现<h2 id="类-class"><a href="#类-class" class="headerlink" title="类(class)"></a>类(class)</h2>命名开头大写，属性用名词，方法用动词</li>
-<li>self<br>self  相当于c++的this指针，实例化对象时指明对象本身，用于设置及处理对象独有的性质<br>方法第一个参数设为self，不然实例化后无法调用，即 绑定<br>self不用做为参数专门传入，调用时自动传入</li>
-<li>magic method(魔法方法)<br>被双下划线包围<ul>
-<li>__init__(self) 构造方法 </li>
-<li>__dict__ 显示实例对象的属性，不显示类属型和特殊属性</li>
+        <ul>
+<li><a href="git%E5%91%BD%E4%BB%A4.md">git命令</a></li>
+<li><a href="shell%E5%91%BD%E4%BB%A4.md">shell命令</a></li>
+<li><a href="debug%E8%AE%B0%E5%BD%95.md">debug记录</a></li>
+<li><a href="%E9%97%AE%E9%A2%98.md">问题</a><ul>
+<li><a href="%E6%97%A0%E6%A0%87%E9%A2%98.md">无标题</a></li>
 </ul>
 </li>
-<li>__name 私有变量、私有函数<br>伪私有，通过**_类名__私有变量(函数)**可调用</li>
-<li>类 类对象 实例对象，不操作就仅是指针<br>同名的属性会覆盖方法</li>
-<li>组合<br>在类中实例化类，</li>
+<li><a href="gdb%E8%AE%B0%E5%BD%95.md">gdb记录</a></li>
+<li><a href="scalapack.md">scalapack</a></li>
+<li><a href="%E4%B8%8D%E5%8A%A0%E6%95%B4%E7%90%86%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7.md">不加整理的奇技淫巧</a></li>
+<li><a href="python.md">python</a></li>
+<li><a href="%E5%9B%A2%E7%B0%87.md">团簇</a></li>
+<li><a href="./MPI_command.md">MPI_command</a></li>
 </ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/08/31/python/" data-id="ckeimhklx0006nwuu3qb0adf8" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/10/12/SUMMARY/" data-id="ckeimhklo0000nwuu2d83466t" class="article-share-link">Share</a>
       
       
     </footer>
@@ -325,7 +295,7 @@ prefix , #rename window</code></pre>
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/08/">August 2020</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/12/">December 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/11/">November 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">October 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/09/">September 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/08/">August 2020</a></li></ul>
     </div>
   </div>
 
@@ -338,23 +308,23 @@ prefix , #rename window</code></pre>
       <ul>
         
           <li>
-            <a href="/2020/08/31/tmux/">tmux command log</a>
+            <a href="/2020/12/19/git%E5%91%BD%E4%BB%A4/">git command</a>
           </li>
         
           <li>
-            <a href="/2020/08/31/something/">something</a>
+            <a href="/2020/11/20/gdb%E8%AE%B0%E5%BD%95/">gdb command</a>
           </li>
         
           <li>
-            <a href="/2020/08/31/scalapack/">scalapack log</a>
+            <a href="/2020/10/12/MPI_command/MPI_four_fundanmental/">(no title)</a>
           </li>
         
           <li>
-            <a href="/2020/08/31/question/">question</a>
+            <a href="/2020/10/12/MPI_command/MPI_command/">(no title)</a>
           </li>
         
           <li>
-            <a href="/2020/08/31/python/">python log</a>
+            <a href="/2020/10/12/SUMMARY/">git_command</a>
           </li>
         
       </ul>

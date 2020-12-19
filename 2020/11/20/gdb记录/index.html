@@ -5,17 +5,17 @@
   
 
   
-  <title>git command | XLT876</title>
+  <title>gdb command | XLT876</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="追加提交git add .git commit –amend 撤销提交checkout 暂存stash 创建并切换分支git checkout -b branch_name   切换分支git checkout branch_name 查看分支git branch将A分支的某次提交‘合并(提交)’到分支Bgit checkout B git log  #get the commitID git c">
+  <meta name="description" content="命令gdb .&#x2F;omprsdft.x 显示源码l list 断点 设置b &quot;a function name, a line number,or an address of an instruction&quot; break   查看info break [n]  维护  delete、clear、disable、enable 运行r run   并行调试mpirun -n 4  xfc">
 <meta property="og:type" content="article">
-<meta property="og:title" content="git command">
-<meta property="og:url" content="http://yoursite.com/2020/08/31/git%E5%91%BD%E4%BB%A4/index.html">
+<meta property="og:title" content="gdb command">
+<meta property="og:url" content="http://yoursite.com/2020/11/20/gdb%E8%AE%B0%E5%BD%95/index.html">
 <meta property="og:site_name" content="XLT876">
-<meta property="og:description" content="追加提交git add .git commit –amend 撤销提交checkout 暂存stash 创建并切换分支git checkout -b branch_name   切换分支git checkout branch_name 查看分支git branch将A分支的某次提交‘合并(提交)’到分支Bgit checkout B git log  #get the commitID git c">
+<meta property="og:description" content="命令gdb .&#x2F;omprsdft.x 显示源码l list 断点 设置b &quot;a function name, a line number,or an address of an instruction&quot; break   查看info break [n]  维护  delete、clear、disable、enable 运行r run   并行调试mpirun -n 4  xfc">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-08-31T14:26:32.359Z">
-<meta property="article:modified_time" content="2020-08-31T14:26:32.359Z">
+<meta property="article:published_time" content="2020-11-20T12:40:32.836Z">
+<meta property="article:modified_time" content="2020-11-20T12:40:51.816Z">
 <meta property="article:author" content="xlt876">
 <meta name="twitter:card" content="summary">
   
@@ -64,10 +64,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-git命令" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-gdb记录" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/08/31/git%E5%91%BD%E4%BB%A4/" class="article-date">
-  <time datetime="2020-08-31T14:26:32.359Z" itemprop="datePublished">2020-08-31</time>
+    <a href="/2020/11/20/gdb%E8%AE%B0%E5%BD%95/" class="article-date">
+  <time datetime="2020-11-20T12:40:32.836Z" itemprop="datePublished">2020-11-20</time>
 </a>
     
   </div>
@@ -78,7 +78,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      git command
+      gdb command
     </h1>
   
 
@@ -86,25 +86,25 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="追加提交"><a href="#追加提交" class="headerlink" title="追加提交"></a>追加提交</h2><p>git add .<br>git commit –amend</p>
-<h2 id="撤销提交"><a href="#撤销提交" class="headerlink" title="撤销提交"></a>撤销提交</h2><p>checkout</p>
-<h2 id="暂存"><a href="#暂存" class="headerlink" title="暂存"></a>暂存</h2><p>stash</p>
-<h2 id="创建并切换分支"><a href="#创建并切换分支" class="headerlink" title="创建并切换分支"></a>创建并切换分支</h2><p>git checkout -b branch_name </p>
-<ul>
-<li>切换分支<br><code>git checkout branch_name</code></li>
-<li>查看分支<br><code>git branch</code><h2 id="将A分支的某次提交‘合并-提交-’到分支B"><a href="#将A分支的某次提交‘合并-提交-’到分支B" class="headerlink" title="将A分支的某次提交‘合并(提交)’到分支B"></a>将A分支的某次提交‘合并(提交)’到分支B</h2><pre><code>git checkout B
-git log  #get the commitID
-git checkout A
-git cherry-pick xxxxxx # xxxxxx refer the commitID</code></pre>
-<h2 id="reset"><a href="#reset" class="headerlink" title="reset ??"></a>reset ??</h2></li>
+        <h2 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h2><pre><code>gdb ./omprsdft.x</code></pre>
+<h3 id="显示源码"><a href="#显示源码" class="headerlink" title="显示源码"></a>显示源码</h3><pre><code>l
+list</code></pre>
+<h3 id="断点"><a href="#断点" class="headerlink" title="断点"></a>断点</h3><ul>
+<li><h4 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h4><pre><code>b &quot;a function name, a line number,or an address of an instruction&quot;
+break </code></pre>
+</li>
+<li><h4 id="查看"><a href="#查看" class="headerlink" title="查看"></a>查看</h4><pre><code>info break [n]</code></pre>
+</li>
+<li><h4 id="维护"><a href="#维护" class="headerlink" title="维护"></a>维护</h4>  delete、clear、disable、enable <h3 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h3><pre><code>r
+run</code></pre>
+</li>
 </ul>
-<h1 id="远程"><a href="#远程" class="headerlink" title="远程"></a>远程</h1><h2 id="查看远程仓库"><a href="#查看远程仓库" class="headerlink" title="查看远程仓库"></a>查看远程仓库</h2><p>git remote -v</p>
-<h2 id="添加远程仓库"><a href="#添加远程仓库" class="headerlink" title="添加远程仓库"></a>添加远程仓库</h2><pre><code>git remote add origin url/to/your/fork</code></pre>
+<h3 id="并行调试"><a href="#并行调试" class="headerlink" title="并行调试"></a>并行调试</h3><p>mpirun -n 4  xfce4-terminal –default-working-directory=<code>pwd</code> -e “gdb ./aa”</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/08/31/git%E5%91%BD%E4%BB%A4/" data-id="ckeimhklw0004nwuu3fcp8j1x" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/11/20/gdb%E8%AE%B0%E5%BD%95/" data-id="ckeimhklv0003nwuu668t5z5z" class="article-share-link">Share</a>
       
       
     </footer>
@@ -113,19 +113,19 @@ git cherry-pick xxxxxx # xxxxxx refer the commitID</code></pre>
     
 <nav id="article-nav">
   
-    <a href="/2020/08/31/hello-world/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2020/12/19/git%E5%91%BD%E4%BB%A4/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          Hello World
+          git command
         
       </div>
     </a>
   
   
-    <a href="/2020/08/31/gdb%E8%AE%B0%E5%BD%95/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2020/10/12/MPI_command/MPI_four_fundanmental/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">gdb command</div>
+      <div class="article-nav-title"></div>
     </a>
   
 </nav>
@@ -149,7 +149,7 @@ git cherry-pick xxxxxx # xxxxxx refer the commitID</code></pre>
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/08/">August 2020</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/12/">December 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/11/">November 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">October 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/09/">September 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/08/">August 2020</a></li></ul>
     </div>
   </div>
 
@@ -162,23 +162,23 @@ git cherry-pick xxxxxx # xxxxxx refer the commitID</code></pre>
       <ul>
         
           <li>
-            <a href="/2020/08/31/tmux/">tmux command log</a>
+            <a href="/2020/12/19/git%E5%91%BD%E4%BB%A4/">git command</a>
           </li>
         
           <li>
-            <a href="/2020/08/31/something/">something</a>
+            <a href="/2020/11/20/gdb%E8%AE%B0%E5%BD%95/">gdb command</a>
           </li>
         
           <li>
-            <a href="/2020/08/31/scalapack/">scalapack log</a>
+            <a href="/2020/10/12/MPI_command/MPI_four_fundanmental/">(no title)</a>
           </li>
         
           <li>
-            <a href="/2020/08/31/question/">question</a>
+            <a href="/2020/10/12/MPI_command/MPI_command/">(no title)</a>
           </li>
         
           <li>
-            <a href="/2020/08/31/python/">python log</a>
+            <a href="/2020/10/12/SUMMARY/">git_command</a>
           </li>
         
       </ul>
