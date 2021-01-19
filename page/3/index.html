@@ -64,6 +64,64 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-question" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/08/31/question/" class="article-date">
+  <time datetime="2020-08-31T14:27:33.503Z" itemprop="datePublished">2020-08-31</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/08/31/question/">question</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="the-world-will-never-be-ready-but-it-will-happen-anyway"><a href="#the-world-will-never-be-ready-but-it-will-happen-anyway" class="headerlink" title="the world will never be ready but it will happen anyway"></a>the world will never be ready but it will happen anyway</h3><h2 id="变量该如何命名"><a href="#变量该如何命名" class="headerlink" title="变量该如何命名"></a>变量该如何命名</h2><ul>
+<li><input checked="" disabled="" type="checkbox"> how this</li>
+<li><input disabled="" type="checkbox"> no no no<br>测试模块要分开写，不然不容易往程序里添加，但测试又很麻烦<br>测试代码和写模块本身就不一样<br>模块的公有变量该不该用，不利于代码的移植啊，麻烦</li>
+</ul>
+<h2 id="预编译"><a href="#预编译" class="headerlink" title="预编译"></a>预编译</h2><ul>
+<li><h3 id="行控制"><a href="#行控制" class="headerlink" title="行控制"></a>行控制</h3><p>  #line __LINE__ __FILE__</p>
+</li>
+<li><h3 id="include-‘xxx-h’-优先级如何"><a href="#include-‘xxx-h’-优先级如何" class="headerlink" title="#include ‘xxx.h’ 优先级如何"></a>#include ‘xxx.h’ 优先级如何</h3><ul>
+<li>直接替换文件内容，按预编译语法判断</li>
+</ul>
+</li>
+</ul>
+<pre><code>#include &lt;header&gt;
+#include &quot;file&quot;</code></pre>
+<h2 id="org-mode的使用"><a href="#org-mode的使用" class="headerlink" title="org-mode的使用"></a>org-mode的使用</h2><ul>
+<li>C-c . 插入时间</li>
+<li>层级目录 ‘*’+’space’</li>
+<li>TAB键 收放目录</li>
+<li>删除线 ‘-ddd-’</li>
+</ul>
+<h2 id="3核的收敛步数变长又是哪的问题呢，什么导致了误差？"><a href="#3核的收敛步数变长又是哪的问题呢，什么导致了误差？" class="headerlink" title="3核的收敛步数变长又是哪的问题呢，什么导致了误差？"></a>3核的收敛步数变长又是哪的问题呢，什么导致了误差？</h2><p>通讯的问题 ，debug记录第四条</p>
+<h2 id="不同核数自洽的计算步数不同"><a href="#不同核数自洽的计算步数不同" class="headerlink" title="不同核数自洽的计算步数不同"></a>不同核数自洽的计算步数不同</h2><p>scalapack的block_mbnb设置不对</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/08/31/question/" data-id="ckixw9v130007l6uu878vf1xu" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-python" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2020/08/31/python/" class="article-date">
@@ -248,57 +306,11 @@
 
 
   
-    <article id="post-不加整理的奇技淫巧" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/08/31/%E4%B8%8D%E5%8A%A0%E6%95%B4%E7%90%86%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/" class="article-date">
-  <time datetime="2020-08-31T14:17:43.507Z" itemprop="datePublished">2020-08-31</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/08/31/%E4%B8%8D%E5%8A%A0%E6%95%B4%E7%90%86%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/">奇技淫巧</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="awk后单引号括起来的命令本质上是防止被shell转义的awk语句"><a href="#awk后单引号括起来的命令本质上是防止被shell转义的awk语句" class="headerlink" title="awk后单引号括起来的命令本质上是防止被shell转义的awk语句"></a>awk后单引号括起来的命令本质上是防止被shell转义的awk语句</h2><pre><code>aa=&quot;aaa&quot;
-awk &#39;xxxxxx; print &quot;&#39; $aa &#39;&quot;xxxxxx&#39; #错误
-awk &#39;xxxxxx; print &quot;&#39;$aa&#39;&quot;xxxxxx&#39; #中间单引号与变量之间的空格会被shell当分隔符处理
-awk &#39;xxxxxx; print &quot;    &#39;$aa&#39;  &quot;xxxxxx&#39; #在两边加空格
-aa=&quot;aaa bbb&quot;
-awk &#39;xxxxxx; print &quot;&#39;” $aa “&#39;&quot;xxxxxx&#39; #变量内有空格</code></pre>
-<h2 id="显示文件的一部分内容"><a href="#显示文件的一部分内容" class="headerlink" title="显示文件的一部分内容"></a>显示文件的一部分内容</h2><pre><code>sed -n &#39;x,yp&#39; filename #输出指定文件x行到y行的内容</code></pre>
-<h2 id="ubuntu-查看ipynb文件"><a href="#ubuntu-查看ipynb文件" class="headerlink" title="ubuntu 查看ipynb文件"></a>ubuntu 查看ipynb文件</h2><pre><code>jupyter notebook</code></pre>
-<p>启动服务后浏览器查看</p>
-<h2 id="0"><a href="#0" class="headerlink" title="$0"></a>$0</h2><p>在只检索PATH的命令里调用自身</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/08/31/%E4%B8%8D%E5%8A%A0%E6%95%B4%E7%90%86%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/" data-id="ckixw9v18000cl6uugtu9616l" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
 
 
   <nav id="page-nav">
     
-    <a class="extend prev" rel="prev" href="/page/2/">&amp;laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span>
+    <a class="extend prev" rel="prev" href="/page/2/">&amp;laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/4/">Next &amp;raquo;</a>
   </nav>
 
 </section>
@@ -330,6 +342,10 @@ awk &#39;xxxxxx; print &quot;&#39;” $aa “&#39;&quot;xxxxxx&#39; #变量内�
       <ul>
         
           <li>
+            <a href="/2021/01/19/crontab%E7%9A%84%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/">(no title)</a>
+          </li>
+        
+          <li>
             <a href="/2021/01/06/git%E5%91%BD%E4%BB%A4/">git command</a>
           </li>
         
@@ -343,10 +359,6 @@ awk &#39;xxxxxx; print &quot;&#39;” $aa “&#39;&quot;xxxxxx&#39; #变量内�
         
           <li>
             <a href="/2020/10/12/MPI_command/MPI_command/">(no title)</a>
-          </li>
-        
-          <li>
-            <a href="/2020/10/12/SUMMARY/">git_command</a>
           </li>
         
       </ul>

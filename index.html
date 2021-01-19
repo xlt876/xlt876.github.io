@@ -64,6 +64,59 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-crontab的使用心得" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2021/01/19/crontab%E7%9A%84%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/" class="article-date">
+  <time datetime="2021-01-19T12:48:42.877Z" itemprop="datePublished">2021-01-19</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="crontab的使用心得"><a href="#crontab的使用心得" class="headerlink" title="crontab的使用心得"></a>crontab的使用心得</h2><p>以下内容均基于Ubuntu20.04<br><strong>任务设置</strong><br>使用<code>crontab -e</code>进行任务设置</p>
+<pre class=" language-bash"><code class="language-bash">* * * * * <span class="token function">command</span> 
+<span class="token comment" spellcheck="true">#五个*分别代表minute(m), hours(h), day of mouth(dom), mouth(mon), day of week(dow)</span></code></pre>
+<p>使用*表示不对该项时间进行设置。</p>
+<p><strong>任务输出及运行状况查询</strong><br>监控定时任务一般采用以下两种方式</p>
+<ul>
+<li>任务输出重定向<br>```bash</li>
+</ul>
+<ul>
+<li><ul>
+<li><ul>
+<li><ul>
+<li><ul>
+<li>command &gt;&gt; /path_of_log/log 2&amp;&gt;1<br>```</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>查看<code>/var/mail/</code>文件夹，如果定时任务有输出，那么系统会自动往<code>/var/mail/$user</code>追加写入一封邮件</li>
+</ul>
+<p><strong>不在任务列表的定时任务</strong><br>在<code>/var/mail/</code>文件夹中有<code>root</code>和<code>$user</code>这两个文件，发现每隔半小时会有一次wps更新失败的邮件提醒，而<code>root</code>账户下没有定时任务，但<code>/var/log/syslog</code>和<code>/var/mail/root</code>两个文件里均显示有这一定时任务，在<a target="_blank" rel="noopener" href="https://serverfault.com/questions/103482/where-is-this-cron-job-running-from">where is this cron job running from</a>的回答里发现<code>/etc/cron*/</code>目录下也有定时任务的设置，在<code>/etc/cron.d/</code>里面找到了<code>wpsupdate</code>文件，删掉，总算不用半小时一封新邮件了</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2021/01/19/crontab%E7%9A%84%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/" data-id="ckk3zwdh700000ouu9xy025h2" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-git命令" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2021/01/06/git%E5%91%BD%E4%BB%A4/" class="article-date">
@@ -222,62 +275,11 @@ run</code></pre>
 
 
   
-    <article id="post-SUMMARY" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/10/12/SUMMARY/" class="article-date">
-  <time datetime="2020-10-12T08:36:22.519Z" itemprop="datePublished">2020-10-12</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/10/12/SUMMARY/">git_command</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <ul>
-<li><a href="git%E5%91%BD%E4%BB%A4.md">git命令</a></li>
-<li><a href="shell%E5%91%BD%E4%BB%A4.md">shell命令</a></li>
-<li><a href="debug%E8%AE%B0%E5%BD%95.md">debug记录</a></li>
-<li><a href="%E9%97%AE%E9%A2%98.md">问题</a><ul>
-<li><a href="%E6%97%A0%E6%A0%87%E9%A2%98.md">无标题</a></li>
-</ul>
-</li>
-<li><a href="gdb%E8%AE%B0%E5%BD%95.md">gdb记录</a></li>
-<li><a href="scalapack.md">scalapack</a></li>
-<li><a href="%E4%B8%8D%E5%8A%A0%E6%95%B4%E7%90%86%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7.md">不加整理的奇技淫巧</a></li>
-<li><a href="python.md">python</a></li>
-<li><a href="%E5%9B%A2%E7%B0%87.md">团簇</a></li>
-<li><a href="./MPI_command.md">MPI_command</a></li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/10/12/SUMMARY/" data-id="ckixw9v0n0000l6uu82sj4fg7" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
 
 
   <nav id="page-nav">
     
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/">Next &amp;raquo;</a>
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/2/">Next &amp;raquo;</a>
   </nav>
 
 </section>
@@ -309,6 +311,10 @@ run</code></pre>
       <ul>
         
           <li>
+            <a href="/2021/01/19/crontab%E7%9A%84%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/">(no title)</a>
+          </li>
+        
+          <li>
             <a href="/2021/01/06/git%E5%91%BD%E4%BB%A4/">git command</a>
           </li>
         
@@ -322,10 +328,6 @@ run</code></pre>
         
           <li>
             <a href="/2020/10/12/MPI_command/MPI_command/">(no title)</a>
-          </li>
-        
-          <li>
-            <a href="/2020/10/12/SUMMARY/">git_command</a>
           </li>
         
       </ul>
