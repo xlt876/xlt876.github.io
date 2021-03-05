@@ -64,6 +64,35 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-MPI_command/MPI_command" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/10/12/MPI_command/MPI_command/" class="article-date">
+  <time datetime="2020-10-12T08:38:26.960Z" itemprop="datePublished">2020-10-12</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="MPI-command"><a href="#MPI-command" class="headerlink" title="MPI_command"></a>MPI_command</h1><p>[TOC] dwdwdwd</p>
+<p><a href="./">dwdw</a></p>
+<p><span id='sss'>./SUMMARY.md</span></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/10/12/MPI_command/MPI_command/" data-id="ckk40dv9y000em4uu3eq2dj2z" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-SUMMARY" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2020/10/12/SUMMARY/" class="article-date">
@@ -106,62 +135,6 @@
     </div>
     <footer class="article-footer">
       <a data-url="http://yoursite.com/2020/10/12/SUMMARY/" data-id="ckk40dv9j0000m4uugso69a66" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-shell命令" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/09/29/shell%E5%91%BD%E4%BB%A4/" class="article-date">
-  <time datetime="2020-09-29T07:49:47.748Z" itemprop="datePublished">2020-09-29</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/09/29/shell%E5%91%BD%E4%BB%A4/">shell command</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="phonopy-扩胞"><a href="#phonopy-扩胞" class="headerlink" title="phonopy 扩胞"></a>phonopy 扩胞</h2><pre class=" language-shell"><code class="language-shell">phonopy -d --dim='10 10 10'</code></pre>
-<p>-d displacement 不明白这个参数为什么必要</p>
-<h2 id="python-查看帮助"><a href="#python-查看帮助" class="headerlink" title="python 查看帮助"></a>python 查看帮助</h2><ul>
-<li>pydoc</li>
-<li>intercative help utility<h2 id="apt-get-update-info-prompt-some-error"><a href="#apt-get-update-info-prompt-some-error" class="headerlink" title="apt-get update info prompt some error"></a>apt-get update info prompt some error</h2><pre><code>cd /etc/apt/
-vi source.list   # if find no error, try grep the info in all files belong to the apt/</code></pre>
-<h2 id="system-clipboard"><a href="#system-clipboard" class="headerlink" title="system clipboard"></a>system clipboard</h2><code>xxx |xsel -b -s -p[default]</code><h2 id="awk使用举例"><a href="#awk使用举例" class="headerlink" title="awk使用举例"></a>awk使用举例</h2><pre><code>for a in $(ls -d [1-8]*);do echo $a ;cat $&amp;#123;a&amp;#125;/1/cp2k.inp |awk &#39;/ABC/&amp;#123;printf &quot;%s\n%3.1f\n %15.10f%15.10f%15.10f\n%15.10f%15.10f%15.10f\n%15.10f%15.10f%15.10f\n%s\n%d\n%s\n&quot;,&quot;B20&quot;,1.0,$2,0,0,0,$3,0,0,0,$3,&quot;B&quot;,20,&quot;Dir&quot;&amp;#125; /&amp;END COORD/&amp;#123;p=0&amp;#125; &amp;#123;if(p==1)&amp;#123;print $2,$3,$4&amp;#125;&amp;#125; /SCALED/&amp;#123;p=1&amp;#125;&#39; &gt; POSCAR_$&amp;#123;a&amp;#125;; done</code></pre>
-真长啊，终端里反斜杠换行不熟练</li>
-</ul>
-<h2 id="xargs"><a href="#xargs" class="headerlink" title="xargs"></a>xargs</h2><pre><code>du -h --summarize ./* |grep &quot;^0&quot;|cut -f2| xargs ls</code></pre>
-<p>删除当前目录下大小为0的文件</p>
-<h2 id="替换castep文件名"><a href="#替换castep文件名" class="headerlink" title="替换castep文件名"></a>替换castep文件名</h2><pre><code>for i in $(ls C.*) ;do mv $&amp;#123;i&amp;#125; O.$&amp;#123;i##*.&amp;#125; ;done</code></pre>
-<p>C.开头的文件换成O开头</p>
-<pre><code>for i in $(ls out*);do cp $&amp;#123;i&amp;#125; ../pot/pot_Ti/Ti$&amp;#123;i##out&amp;#125; ;done</code></pre>
-<h2 id="替换文件内部字符"><a href="#替换文件内部字符" class="headerlink" title="替换文件内部字符"></a>替换文件内部字符</h2><pre><code>sed -i &#39;s/Au/C/g&#39; ARES.CONT_*</code></pre>
-<h2 id="xarg的奇怪应用"><a href="#xarg的奇怪应用" class="headerlink" title="xarg的奇怪应用"></a>xarg的奇怪应用</h2><pre><code>for i in $(cat parsecPOS );do bohr2angs $i;done |xargs -n 3</code></pre>
-<h2 id="并行环境的设置"><a href="#并行环境的设置" class="headerlink" title="并行环境的设置"></a>并行环境的设置</h2><pre><code>echo 0 |sudo tee /proc/sys/kernel/yama/ptrace_scope</code></pre>
-<h2 id="查看静态库的内容"><a href="#查看静态库的内容" class="headerlink" title="查看静态库的内容"></a>查看静态库的内容</h2><pre><code>ar -t \*.a  #查看文件
-nm \*.a     #查看函数,变量</code></pre>
-<h2 id="批量修改模块名"><a href="#批量修改模块名" class="headerlink" title="批量修改模块名"></a>批量修改模块名</h2><pre class=" language-shell"><code class="language-shell">while read i ; do sed -i "s/module *$&#123;i&#125;/&_p/i" ./*90 ; sed -i "s/use *$&#123;i&#125;/&_p/i" ./*90 ;done< module_log</code></pre>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/09/29/shell%E5%91%BD%E4%BB%A4/" data-id="ckk40dv9v000am4uu08lwh3w4" class="article-share-link">Share</a>
       
       
     </footer>
@@ -322,7 +295,7 @@ prefix , #rename window</code></pre>
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/01/">January 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/11/">November 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">October 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/09/">September 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/08/">August 2020</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/03/">March 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">October 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/08/">August 2020</a></li></ul>
     </div>
   </div>
 
@@ -335,23 +308,23 @@ prefix , #rename window</code></pre>
       <ul>
         
           <li>
-            <a href="/2021/01/19/crontab%E7%9A%84%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/">(no title)</a>
+            <a href="/2021/03/05/git%E5%91%BD%E4%BB%A4/">git command</a>
           </li>
         
           <li>
-            <a href="/2021/01/06/git%E5%91%BD%E4%BB%A4/">git command</a>
+            <a href="/2021/03/05/crontab%E7%9A%84%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/">crontab的使用心得</a>
           </li>
         
           <li>
-            <a href="/2020/11/20/gdb%E8%AE%B0%E5%BD%95/">gdb command</a>
+            <a href="/2021/03/05/gdb%E8%AE%B0%E5%BD%95/">gdb command</a>
+          </li>
+        
+          <li>
+            <a href="/2021/03/05/shell%E5%91%BD%E4%BB%A4/">shell command</a>
           </li>
         
           <li>
             <a href="/2020/10/12/MPI_command/MPI_four_fundanmental/">(no title)</a>
-          </li>
-        
-          <li>
-            <a href="/2020/10/12/MPI_command/MPI_command/">(no title)</a>
           </li>
         
       </ul>
