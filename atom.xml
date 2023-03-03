@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>XLT876</title>
+  <title>physics and programming</title>
   
   <subtitle>design yourself</subtitle>
   <link href="http://yoursite.com/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>xlt876</name>
+    <name>KeQin</name>
     
   </author>
   
