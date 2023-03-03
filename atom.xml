@@ -71,7 +71,8 @@
     
       
       
-    <summary type="html">&lt;h3 id=&quot;启动&quot;&gt;&lt;a href=&quot;#启动&quot; class=&quot;headerlink&quot; title=&quot;启动&quot;&gt;&lt;/a&gt;启动&lt;/h3&gt;&lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;gdb ./omprsdft.x&lt;</summary>
+    <summary type="html">&lt;h3 id=&quot;启动&quot;&gt;&lt;a href=&quot;#启动&quot; class=&quot;headerlink&quot; title=&quot;启动&quot;&gt;&lt;/a&gt;启动&lt;/h3&gt;&lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;gdb ./omprsdft.x
+</summary>
       
     
     
@@ -100,26 +101,6 @@
   </entry>
   
   <entry>
-    <title>python log</title>
-    <link href="http://yoursite.com/2021/03/12/python/"/>
-    <id>http://yoursite.com/2021/03/12/python/</id>
-    <published>2021-03-12T13:21:07.443Z</published>
-    <updated>2021-03-12T13:21:07.443Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="在python中输入参数有两种，元组和字典"><a href="#在python中输入参数有两种，元组和字典" class="headerlink" title="在python中输入参数有两种，元组和字典"></a>在python中输入参数有两种，元组和字典</h2><h2 id="文档-xxx-doc-与help-显示对应"><a href="#文档-xxx-doc-与help-显示对应" class="headerlink" title="文档 xxx.__doc__ 与help() 显示对应"></a>文档 xxx.__doc__ 与help() 显示对应</h2><p>在模块开头，函数定义下方添加</p><h2 id="多态-继承-封装"><a href="#多态-继承-封装" class="headerlink" title="多态 继承 封装"></a>多态 继承 封装</h2><ul><li>多态<br>相同的方法可以有不同的结果</li><li>继承<pre class=" language-python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">aa</span><span class="token punctuation">(</span>list<span class="token punctuation">)</span></code></pre>类aa继承list的属性和方法，同名的子类覆盖父类</li><li>封装<br>只用关注对象的方法和属性而不用关注其如何实现<h2 id="类-class"><a href="#类-class" class="headerlink" title="类(class)"></a>类(class)</h2>命名开头大写，属性用名词，方法用动词</li><li>self<br>self  相当于c++的this指针，实例化对象时指明对象本身，用于设置及处理对象独有的性质<br>方法第一个参数设为self，不然实例化后无法调用，即 绑定<br>self不用做为参数专门传入，调用时自动传入</li><li>magic method(魔法方法)<br>被双下划线包围<ul><li>__init__(self) 构造方法 </li><li>__dict__ 显示实例对象的属性，不显示类属型和特殊属性</li></ul></li><li>__name 私有变量、私有函数<br>伪私有，通过**_类名__私有变量(函数)**可调用</li><li>类 类对象 实例对象，不操作就仅是指针<br>同名的属性会覆盖方法</li><li>组合<br>在类中实例化类，</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;在python中输入参数有两种，元组和字典&quot;&gt;&lt;a href=&quot;#在python中输入参数有两种，元组和字典&quot; class=&quot;headerlink&quot; title=&quot;在python中输入参数有两种，元组和字典&quot;&gt;&lt;/a&gt;在python中输入参数有两种，元组和字典&lt;/</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
     <link href="http://yoursite.com/2021/03/12/hello-world/"/>
     <id>http://yoursite.com/2021/03/12/hello-world/</id>
@@ -132,6 +113,26 @@
       
       
     <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>python log</title>
+    <link href="http://yoursite.com/2021/03/12/python/"/>
+    <id>http://yoursite.com/2021/03/12/python/</id>
+    <published>2021-03-12T13:21:07.443Z</published>
+    <updated>2021-03-12T13:21:07.443Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="在python中输入参数有两种，元组和字典"><a href="#在python中输入参数有两种，元组和字典" class="headerlink" title="在python中输入参数有两种，元组和字典"></a>在python中输入参数有两种，元组和字典</h2><h2 id="文档-xxx-doc-与help-显示对应"><a href="#文档-xxx-doc-与help-显示对应" class="headerlink" title="文档 xxx.__doc__ 与help() 显示对应"></a>文档 xxx.__doc__ 与help() 显示对应</h2><p>在模块开头，函数定义下方添加</p><h2 id="多态-继承-封装"><a href="#多态-继承-封装" class="headerlink" title="多态 继承 封装"></a>多态 继承 封装</h2><ul><li>多态<br>相同的方法可以有不同的结果</li><li>继承<pre class=" language-python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">aa</span><span class="token punctuation">(</span>list<span class="token punctuation">)</span></code></pre>类aa继承list的属性和方法，同名的子类覆盖父类</li><li>封装<br>只用关注对象的方法和属性而不用关注其如何实现<h2 id="类-class"><a href="#类-class" class="headerlink" title="类(class)"></a>类(class)</h2>命名开头大写，属性用名词，方法用动词</li><li>self<br>self  相当于c++的this指针，实例化对象时指明对象本身，用于设置及处理对象独有的性质<br>方法第一个参数设为self，不然实例化后无法调用，即 绑定<br>self不用做为参数专门传入，调用时自动传入</li><li>magic method(魔法方法)<br>被双下划线包围<ul><li>__init__(self) 构造方法 </li><li>__dict__ 显示实例对象的属性，不显示类属型和特殊属性</li></ul></li><li>__name 私有变量、私有函数<br>伪私有，通过**_类名__私有变量(函数)**可调用</li><li>类 类对象 实例对象，不操作就仅是指针<br>同名的属性会覆盖方法</li><li>组合<br>在类中实例化类，</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;在python中输入参数有两种，元组和字典&quot;&gt;&lt;a href=&quot;#在python中输入参数有两种，元组和字典&quot; class=&quot;headerlink&quot; title=&quot;在python中输入参数有两种，元组和字典&quot;&gt;&lt;/a&gt;在python中输入参数有两种，元组和字典&lt;/</summary>
       
     
     
@@ -220,26 +221,6 @@
   </entry>
   
   <entry>
-    <title>奇技淫巧</title>
-    <link href="http://yoursite.com/2021/03/12/%E4%B8%8D%E5%8A%A0%E6%95%B4%E7%90%86%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/"/>
-    <id>http://yoursite.com/2021/03/12/%E4%B8%8D%E5%8A%A0%E6%95%B4%E7%90%86%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/</id>
-    <published>2021-03-12T13:21:07.443Z</published>
-    <updated>2021-03-12T13:21:07.443Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="awk后单引号括起来的命令本质上是防止被shell转义的awk语句"><a href="#awk后单引号括起来的命令本质上是防止被shell转义的awk语句" class="headerlink" title="awk后单引号括起来的命令本质上是防止被shell转义的awk语句"></a>awk后单引号括起来的命令本质上是防止被shell转义的awk语句</h2><pre><code>aa=&quot;aaa&quot;awk &#39;xxxxxx; print &quot;&#39; $aa &#39;&quot;xxxxxx&#39; #错误awk &#39;xxxxxx; print &quot;&#39;$aa&#39;&quot;xxxxxx&#39; #中间单引号与变量之间的空格会被shell当分隔符处理awk &#39;xxxxxx; print &quot;    &#39;$aa&#39;  &quot;xxxxxx&#39; #在两边加空格aa=&quot;aaa bbb&quot;awk &#39;xxxxxx; print &quot;&#39;” $aa “&#39;&quot;xxxxxx&#39; #变量内有空格</code></pre><h2 id="显示文件的一部分内容"><a href="#显示文件的一部分内容" class="headerlink" title="显示文件的一部分内容"></a>显示文件的一部分内容</h2><pre><code>sed -n &#39;x,yp&#39; filename #输出指定文件x行到y行的内容</code></pre><h2 id="ubuntu-查看ipynb文件"><a href="#ubuntu-查看ipynb文件" class="headerlink" title="ubuntu 查看ipynb文件"></a>ubuntu 查看ipynb文件</h2><pre><code>jupyter notebook</code></pre><p>启动服务后浏览器查看</p><h2 id="0"><a href="#0" class="headerlink" title="$0"></a>$0</h2><p>在只检索PATH的命令里调用自身</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;awk后单引号括起来的命令本质上是防止被shell转义的awk语句&quot;&gt;&lt;a href=&quot;#awk后单引号括起来的命令本质上是防止被shell转义的awk语句&quot; class=&quot;headerlink&quot; title=&quot;awk后单引号括起来的命令本质上是防止被shell转</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>tmux command log</title>
     <link href="http://yoursite.com/2021/03/12/tmux/"/>
     <id>http://yoursite.com/2021/03/12/tmux/</id>
@@ -266,13 +247,33 @@ prefix l
   </entry>
   
   <entry>
+    <title>奇技淫巧</title>
+    <link href="http://yoursite.com/2021/03/12/%E4%B8%8D%E5%8A%A0%E6%95%B4%E7%90%86%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/"/>
+    <id>http://yoursite.com/2021/03/12/%E4%B8%8D%E5%8A%A0%E6%95%B4%E7%90%86%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/</id>
+    <published>2021-03-12T13:21:07.443Z</published>
+    <updated>2021-03-12T13:21:07.443Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="awk后单引号括起来的命令本质上是防止被shell转义的awk语句"><a href="#awk后单引号括起来的命令本质上是防止被shell转义的awk语句" class="headerlink" title="awk后单引号括起来的命令本质上是防止被shell转义的awk语句"></a>awk后单引号括起来的命令本质上是防止被shell转义的awk语句</h2><pre><code>aa=&quot;aaa&quot;awk &#39;xxxxxx; print &quot;&#39; $aa &#39;&quot;xxxxxx&#39; #错误awk &#39;xxxxxx; print &quot;&#39;$aa&#39;&quot;xxxxxx&#39; #中间单引号与变量之间的空格会被shell当分隔符处理awk &#39;xxxxxx; print &quot;    &#39;$aa&#39;  &quot;xxxxxx&#39; #在两边加空格aa=&quot;aaa bbb&quot;awk &#39;xxxxxx; print &quot;&#39;” $aa “&#39;&quot;xxxxxx&#39; #变量内有空格</code></pre><h2 id="显示文件的一部分内容"><a href="#显示文件的一部分内容" class="headerlink" title="显示文件的一部分内容"></a>显示文件的一部分内容</h2><pre><code>sed -n &#39;x,yp&#39; filename #输出指定文件x行到y行的内容</code></pre><h2 id="ubuntu-查看ipynb文件"><a href="#ubuntu-查看ipynb文件" class="headerlink" title="ubuntu 查看ipynb文件"></a>ubuntu 查看ipynb文件</h2><pre><code>jupyter notebook</code></pre><p>启动服务后浏览器查看</p><h2 id="0"><a href="#0" class="headerlink" title="$0"></a>$0</h2><p>在只检索PATH的命令里调用自身</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;awk后单引号括起来的命令本质上是防止被shell转义的awk语句&quot;&gt;&lt;a href=&quot;#awk后单引号括起来的命令本质上是防止被shell转义的awk语句&quot; class=&quot;headerlink&quot; title=&quot;awk后单引号括起来的命令本质上是防止被shell转</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>cluster</title>
     <link href="http://yoursite.com/2021/03/12/cluster/"/>
     <id>http://yoursite.com/2021/03/12/cluster/</id>
     <published>2021-03-12T13:21:07.439Z</published>
     <updated>2021-03-12T13:21:07.439Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="ARES-计算团簇-h-BN-或其他"><a href="#ARES-计算团簇-h-BN-或其他" class="headerlink" title="ARES 计算团簇 h-BN 或其他"></a>ARES 计算团簇 h-BN 或其他</h1><h2 id="金原子的STO轨道屏蔽系数"><a href="#金原子的STO轨道屏蔽系数" class="headerlink" title="金原子的STO轨道屏蔽系数"></a>金原子的STO轨道屏蔽系数</h2><p>zeta=(z-sigma)/n^*<br>zeta: 轨道指数 z: 核电荷 sigma: 屏蔽常数 n^*: 有效主量子数</p><h2 id="Slater-规则"><a href="#Slater-规则" class="headerlink" title="Slater 规则"></a>Slater 规则</h2><ol><li>将核外电子按主量子数n和角量子数l分组 1s,2s2p,3s3p,3d,4s4p,4d,4f,5s5p,5d,5f,6s6p,6d,6f,7s7p,7d,7f</li><li>外层各组电子对内层各组电子不产生屏蔽，sigma=0</li><li>1s同组电子间屏蔽常数sigma为0.30，其余同组电子屏蔽常数为0.35</li><li>相邻两组之间，对nsnp电子，主量子数为(n-1)的各组每个电子对外组每个电子的屏蔽常数sigma为0.85，更内组屏蔽常数为1。对于外组df电子，不论是相邻内组还是更内组的每个电子，对它的屏蔽常数都是sigma=1</li><li>有效主量子数n<em>与主量子数n的对应关系为<br>n      1 , 2 , 3 , 4 , 5 , 6<br>n^</em>   1 , 2 , 3 , 3.7 , 4.0 , 4.2</li></ol><h2 id="例"><a href="#例" class="headerlink" title="例"></a>例</h2><p>Au 79  5d10|6s1<br>1s2|2s2|2p6|3s2|3p6|3d10|4s2|4p6|4d10|4f14|5s2|5p6|5d10|6s1<br>2 8 18 32 18 1<br>5d10 : 79-(9*0.35)-(2+8+18+32)*1</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="ARES-计算团簇-h-BN-或其他"><a href="#ARES-计算团簇-h-BN-或其他" class="headerlink" title="ARES 计算团簇 h-BN 或其他"></a>ARES 计算团簇 h-BN 或其他</h1><h2 id="金原子的STO轨道屏蔽系数"><a href="#金原子的STO轨道屏蔽系数" class="headerlink" title="金原子的STO轨道屏蔽系数"></a>金原子的STO轨道屏蔽系数</h2><p>zeta=(z-sigma)/n^*<br>zeta: 轨道指数 z: 核电荷 sigma: 屏蔽常数 n^*: 有效主量子数</p><h2 id="Slater-规则"><a href="#Slater-规则" class="headerlink" title="Slater 规则"></a>Slater 规则</h2><ol><li> 将核外电子按主量子数n和角量子数l分组 1s,2s2p,3s3p,3d,4s4p,4d,4f,5s5p,5d,5f,6s6p,6d,6f,7s7p,7d,7f</li><li>外层各组电子对内层各组电子不产生屏蔽，sigma=0</li><li>1s同组电子间屏蔽常数sigma为0.30，其余同组电子屏蔽常数为0.35</li><li>相邻两组之间，对nsnp电子，主量子数为(n-1)的各组每个电子对外组每个电子的屏蔽常数sigma为0.85，更内组屏蔽常数为1。对于外组df电子，不论是相邻内组还是更内组的每个电子，对它的屏蔽常数都是sigma=1</li><li>有效主量子数n<em>与主量子数n的对应关系为<br>n      1 , 2 , 3 , 4 , 5 , 6<br>n^</em>   1 , 2 , 3 , 3.7 , 4.0 , 4.2</li></ol><h2 id="例"><a href="#例" class="headerlink" title="例"></a>例</h2><p>Au 79  5d10|6s1<br>1s2|2s2|2p6|3s2|3p6|3d10|4s2|4p6|4d10|4f14|5s2|5p6|5d10|6s1<br>2 8 18 32 18 1<br>5d10 : 79-(9*0.35)-(2+8+18+32)*1</p>]]></content>
     
     
       
@@ -292,7 +293,7 @@ prefix l
     <published>2021-03-12T13:21:07.439Z</published>
     <updated>2021-03-12T13:21:07.439Z</updated>
     
-    <content type="html"><![CDATA[<p>以下内容均基于Ubuntu20.04</p><h2 id="任务设置"><a href="#任务设置" class="headerlink" title="任务设置"></a><strong>任务设置</strong></h2><p>使用<code>crontab -e</code>进行任务设置</p><pre class=" language-bash"><code class="language-bash">* * * * * <span class="token function">command</span> <span class="token comment" spellcheck="true">#五个*分别代表minute(m), hours(h), day of mouth(dom), mouth(mon), day of week(dow)</span></code></pre><p>使用*表示不对该项时间进行设置。</p><h2 id="任务输出及运行状况查询"><a href="#任务输出及运行状况查询" class="headerlink" title="任务输出及运行状况查询"></a><strong>任务输出及运行状况查询</strong></h2><p>监控定时任务一般采用以下两种方式</p><ul><li>任务输出重定向<pre class=" language-bash"><code class="language-bash">* * * * * <span class="token function">command</span> <span class="token operator">>></span> /path_of_log/log 2<span class="token operator">&amp;</span><span class="token operator">></span>1</code></pre></li><li>查看<code>/var/mail/</code>文件夹，如果定时任务有输出，那么系统会自动往<code>/var/mail/$user</code>追加写入一封邮件</li></ul><h2 id="不在任务列表的定时任务"><a href="#不在任务列表的定时任务" class="headerlink" title="不在任务列表的定时任务"></a><strong>不在任务列表的定时任务</strong></h2><p>在<code>/var/mail/</code>文件夹中有<code>root</code>和<code>$user</code>这两个文件，发现每隔半小时会有一次wps更新失败的邮件提醒，而<code>root</code>账户下没有定时任务，但<code>/var/log/syslog</code>和<code>/var/mail/root</code>两个文件里均显示有这一定时任务，在<a href="https://serverfault.com/questions/103482/where-is-this-cron-job-running-from">where is this cron job running from</a>的回答里发现<code>/etc/cron*/</code>目录下也有定时任务的设置，在<code>/etc/cron.d/</code>里面找到了<code>wpsupdate</code>文件，删掉，总算不用半小时一封新邮件了</p>]]></content>
+    <content type="html"><![CDATA[<p>以下内容均基于Ubuntu20.04</p><h2 id="任务设置"><a href="#任务设置" class="headerlink" title="任务设置"></a><strong>任务设置</strong></h2><p>使用<code>crontab -e</code>进行任务设置</p><pre class=" language-bash"><code class="language-bash">* * * * * <span class="token function">command</span> <span class="token comment" spellcheck="true">#五个*分别代表minute(m), hours(h), day of mouth(dom), mouth(mon), day of week(dow)</span></code></pre><p>使用*表示不对该项时间进行设置。</p><h2 id="任务输出及运行状况查询"><a href="#任务输出及运行状况查询" class="headerlink" title="任务输出及运行状况查询"></a><strong>任务输出及运行状况查询</strong></h2><p>监控定时任务一般采用以下两种方式</p><ul><li>任务输出重定向<br>```bash</li></ul><ul><li><ul><li><ul><li><ul><li><ul><li>command &gt;&gt; /path_of_log/log 2&amp;&gt;1<br>```</li></ul></li></ul></li></ul></li></ul></li></ul><ul><li>查看<code>/var/mail/</code>文件夹，如果定时任务有输出，那么系统会自动往<code>/var/mail/$user</code>追加写入一封邮件</li></ul><h2 id="不在任务列表的定时任务"><a href="#不在任务列表的定时任务" class="headerlink" title="不在任务列表的定时任务"></a><strong>不在任务列表的定时任务</strong></h2><p>在<code>/var/mail/</code>文件夹中有<code>root</code>和<code>$user</code>这两个文件，发现每隔半小时会有一次wps更新失败的邮件提醒，而<code>root</code>账户下没有定时任务，但<code>/var/log/syslog</code>和<code>/var/mail/root</code>两个文件里均显示有这一定时任务，在<a href="https://serverfault.com/questions/103482/where-is-this-cron-job-running-from">where is this cron job running from</a>的回答里发现<code>/etc/cron*/</code>目录下也有定时任务的设置，在<code>/etc/cron.d/</code>里面找到了<code>wpsupdate</code>文件，删掉，总算不用半小时一封新邮件了</p>]]></content>
     
     
       
