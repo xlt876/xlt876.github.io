@@ -6,7 +6,7 @@
   <link href="http://xlt876.github.io/atom.xml" rel="self"/>
   
   <link href="http://xlt876.github.io/"/>
-  <updated>2023-03-03T12:32:47.573Z</updated>
+  <updated>2023-03-03T13:29:31.542Z</updated>
   <id>http://xlt876.github.io/</id>
   
   <author>
@@ -17,28 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>shell command</title>
+    <link href="http://xlt876.github.io/2023/03/03/shell_cmd/"/>
+    <id>http://xlt876.github.io/2023/03/03/shell_cmd/</id>
+    <published>2023-03-03T13:29:31.542Z</published>
+    <updated>2023-03-03T13:29:31.542Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>gdb command</title>
     <link href="http://xlt876.github.io/2023/03/03/gdb%E8%AE%B0%E5%BD%95/"/>
     <id>http://xlt876.github.io/2023/03/03/gdb%E8%AE%B0%E5%BD%95/</id>
-    <published>2023-03-03T12:32:47.573Z</published>
-    <updated>2023-03-03T12:32:47.573Z</updated>
-    
-    
-    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
-    
-    
-    
-    
-    <category term="encrypt" scheme="http://xlt876.github.io/tags/encrypt/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>question</title>
-    <link href="http://xlt876.github.io/2023/03/03/question/"/>
-    <id>http://xlt876.github.io/2023/03/03/question/</id>
-    <published>2023-03-03T12:06:17.438Z</published>
-    <updated>2023-03-03T12:06:17.438Z</updated>
+    <published>2023-03-03T13:27:04.035Z</published>
+    <updated>2023-03-03T13:27:04.035Z</updated>
     
     
       
@@ -51,31 +55,6 @@
     
     
     
-    
-    <category term="encrypt" scheme="http://xlt876.github.io/tags/encrypt/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python log</title>
-    <link href="http://xlt876.github.io/2023/03/03/python/"/>
-    <id>http://xlt876.github.io/2023/03/03/python/</id>
-    <published>2023-03-03T12:05:08.409Z</published>
-    <updated>2023-03-03T12:05:08.409Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    
-    <category term="encrypt" scheme="http://xlt876.github.io/tags/encrypt/"/>
     
   </entry>
   
@@ -83,8 +62,8 @@
     <title>git command</title>
     <link href="http://xlt876.github.io/2023/03/03/git%E5%91%BD%E4%BB%A4/"/>
     <id>http://xlt876.github.io/2023/03/03/git%E5%91%BD%E4%BB%A4/</id>
-    <published>2023-03-03T12:04:53.217Z</published>
-    <updated>2023-03-03T12:04:53.217Z</updated>
+    <published>2023-03-03T13:26:42.663Z</published>
+    <updated>2023-03-03T13:26:42.663Z</updated>
     
     
       
@@ -98,7 +77,47 @@
     
     
     
-    <category term="encrypt" scheme="http://xlt876.github.io/tags/encrypt/"/>
+  </entry>
+  
+  <entry>
+    <title>python log</title>
+    <link href="http://xlt876.github.io/2023/03/03/python/"/>
+    <id>http://xlt876.github.io/2023/03/03/python/</id>
+    <published>2023-03-03T13:26:42.663Z</published>
+    <updated>2023-03-03T13:26:42.663Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>question</title>
+    <link href="http://xlt876.github.io/2023/03/03/question/"/>
+    <id>http://xlt876.github.io/2023/03/03/question/</id>
+    <published>2023-03-03T13:26:42.663Z</published>
+    <updated>2023-03-03T13:26:42.663Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
     
   </entry>
   
@@ -106,8 +125,8 @@
     <title>奇技淫巧</title>
     <link href="http://xlt876.github.io/2023/03/03/shell_odd/"/>
     <id>http://xlt876.github.io/2023/03/03/shell_odd/</id>
-    <published>2023-03-03T12:04:14.529Z</published>
-    <updated>2023-03-03T12:04:14.529Z</updated>
+    <published>2023-03-03T13:26:42.663Z</published>
+    <updated>2023-03-03T13:26:42.663Z</updated>
     
     
       
@@ -120,54 +139,6 @@
     
     
     
-    
-    <category term="encrypt" scheme="http://xlt876.github.io/tags/encrypt/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>shell command</title>
-    <link href="http://xlt876.github.io/2023/03/03/shell%E5%91%BD%E4%BB%A4/"/>
-    <id>http://xlt876.github.io/2023/03/03/shell%E5%91%BD%E4%BB%A4/</id>
-    <published>2023-03-03T12:03:56.356Z</published>
-    <updated>2023-03-03T12:03:56.356Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    
-    <category term="encrypt" scheme="http://xlt876.github.io/tags/encrypt/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>tmux command log</title>
-    <link href="http://xlt876.github.io/2023/03/03/tmux/"/>
-    <id>http://xlt876.github.io/2023/03/03/tmux/</id>
-    <published>2023-03-03T12:03:50.524Z</published>
-    <updated>2023-03-03T12:03:50.524Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    
-    <category term="encrypt" scheme="http://xlt876.github.io/tags/encrypt/"/>
     
   </entry>
   
@@ -175,8 +146,8 @@
     <title>something</title>
     <link href="http://xlt876.github.io/2023/03/03/something/"/>
     <id>http://xlt876.github.io/2023/03/03/something/</id>
-    <published>2023-03-03T12:03:42.760Z</published>
-    <updated>2023-03-03T12:03:42.760Z</updated>
+    <published>2023-03-03T13:26:42.663Z</published>
+    <updated>2023-03-03T13:26:42.663Z</updated>
     
     
       
@@ -189,17 +160,15 @@
     
     
     
-    
-    <category term="encrypt" scheme="http://xlt876.github.io/tags/encrypt/"/>
     
   </entry>
   
   <entry>
-    <title>debug log</title>
-    <link href="http://xlt876.github.io/2023/03/03/debug%E8%AE%B0%E5%BD%95/"/>
-    <id>http://xlt876.github.io/2023/03/03/debug%E8%AE%B0%E5%BD%95/</id>
-    <published>2023-03-03T12:02:52.504Z</published>
-    <updated>2023-03-03T12:02:52.504Z</updated>
+    <title>tmux command log</title>
+    <link href="http://xlt876.github.io/2023/03/03/tmux/"/>
+    <id>http://xlt876.github.io/2023/03/03/tmux/</id>
+    <published>2023-03-03T13:26:42.663Z</published>
+    <updated>2023-03-03T13:26:42.663Z</updated>
     
     
       
@@ -212,8 +181,6 @@
     
     
     
-    
-    <category term="encrypt" scheme="http://xlt876.github.io/tags/encrypt/"/>
     
   </entry>
   
@@ -221,8 +188,8 @@
     <title>cluster</title>
     <link href="http://xlt876.github.io/2023/03/03/cluster/"/>
     <id>http://xlt876.github.io/2023/03/03/cluster/</id>
-    <published>2023-03-03T12:02:45.096Z</published>
-    <updated>2023-03-03T12:02:45.096Z</updated>
+    <published>2023-03-03T13:26:42.659Z</published>
+    <updated>2023-03-03T13:26:42.659Z</updated>
     
     
       
@@ -235,8 +202,6 @@
     
     
     
-    
-    <category term="encrypt" scheme="http://xlt876.github.io/tags/encrypt/"/>
     
   </entry>
   
@@ -244,8 +209,8 @@
     <title>crontab的使用心得</title>
     <link href="http://xlt876.github.io/2023/03/03/crontab%E7%9A%84%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/"/>
     <id>http://xlt876.github.io/2023/03/03/crontab%E7%9A%84%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</id>
-    <published>2023-03-03T12:02:32.704Z</published>
-    <updated>2023-03-03T12:02:32.704Z</updated>
+    <published>2023-03-03T13:26:42.659Z</published>
+    <updated>2023-03-03T13:26:42.659Z</updated>
     
     
       
@@ -259,7 +224,26 @@
     
     
     
-    <category term="encrypt" scheme="http://xlt876.github.io/tags/encrypt/"/>
+  </entry>
+  
+  <entry>
+    <title>debug log</title>
+    <link href="http://xlt876.github.io/2023/03/03/debug%E8%AE%B0%E5%BD%95/"/>
+    <id>http://xlt876.github.io/2023/03/03/debug%E8%AE%B0%E5%BD%95/</id>
+    <published>2023-03-03T13:26:42.659Z</published>
+    <updated>2023-03-03T13:26:42.659Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
     
   </entry>
   
