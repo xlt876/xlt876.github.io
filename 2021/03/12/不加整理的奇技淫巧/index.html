@@ -5,17 +5,17 @@
   
 
   
-  <title>XLT876</title>
+  <title>奇技淫巧 | XLT876</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="MPI_command[TOC] dwdwdwd dwdw .&#x2F;SUMMARY.md">
+  <meta name="description" content="awk后单引号括起来的命令本质上是防止被shell转义的awk语句aa&#x3D;&quot;aaa&quot; awk &#39;xxxxxx; print &quot;&#39; $aa &#39;&quot;xxxxxx&#39; #错误 awk &#39;xxxxxx; print &quot;&#39;$aa&#39;&quot;xxxxxx&#39; #中间单引号与变量之间的空格会被shell当">
 <meta property="og:type" content="article">
-<meta property="og:title" content="XLT876">
-<meta property="og:url" content="http://yoursite.com/2020/10/12/MPI_command/MPI_command/index.html">
+<meta property="og:title" content="奇技淫巧">
+<meta property="og:url" content="http://yoursite.com/2021/03/12/%E4%B8%8D%E5%8A%A0%E6%95%B4%E7%90%86%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/index.html">
 <meta property="og:site_name" content="XLT876">
-<meta property="og:description" content="MPI_command[TOC] dwdwdwd dwdw .&#x2F;SUMMARY.md">
+<meta property="og:description" content="awk后单引号括起来的命令本质上是防止被shell转义的awk语句aa&#x3D;&quot;aaa&quot; awk &#39;xxxxxx; print &quot;&#39; $aa &#39;&quot;xxxxxx&#39; #错误 awk &#39;xxxxxx; print &quot;&#39;$aa&#39;&quot;xxxxxx&#39; #中间单引号与变量之间的空格会被shell当">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-10-12T08:38:26.960Z">
-<meta property="article:modified_time" content="2020-10-12T08:38:28.180Z">
+<meta property="article:published_time" content="2021-03-12T13:21:07.443Z">
+<meta property="article:modified_time" content="2021-03-12T13:21:07.443Z">
 <meta property="article:author" content="xlt876">
 <meta name="twitter:card" content="summary">
   
@@ -64,26 +64,43 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-MPI_command/MPI_command" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-不加整理的奇技淫巧" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/10/12/MPI_command/MPI_command/" class="article-date">
-  <time datetime="2020-10-12T08:38:26.960Z" itemprop="datePublished">2020-10-12</time>
+    <a href="/2021/03/12/%E4%B8%8D%E5%8A%A0%E6%95%B4%E7%90%86%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/" class="article-date">
+  <time datetime="2021-03-12T13:21:07.443Z" itemprop="datePublished">2021-03-12</time>
 </a>
     
   </div>
   <div class="article-inner">
     
     
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      奇技淫巧
+    </h1>
+  
+
+      </header>
+    
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="MPI-command"><a href="#MPI-command" class="headerlink" title="MPI_command"></a>MPI_command</h1><p>[TOC] dwdwdwd</p>
-<p><a href="./">dwdw</a></p>
-<p><span id='sss'>./SUMMARY.md</span></p>
+        <h2 id="awk后单引号括起来的命令本质上是防止被shell转义的awk语句"><a href="#awk后单引号括起来的命令本质上是防止被shell转义的awk语句" class="headerlink" title="awk后单引号括起来的命令本质上是防止被shell转义的awk语句"></a>awk后单引号括起来的命令本质上是防止被shell转义的awk语句</h2><pre><code>aa=&quot;aaa&quot;
+awk &#39;xxxxxx; print &quot;&#39; $aa &#39;&quot;xxxxxx&#39; #错误
+awk &#39;xxxxxx; print &quot;&#39;$aa&#39;&quot;xxxxxx&#39; #中间单引号与变量之间的空格会被shell当分隔符处理
+awk &#39;xxxxxx; print &quot;    &#39;$aa&#39;  &quot;xxxxxx&#39; #在两边加空格
+aa=&quot;aaa bbb&quot;
+awk &#39;xxxxxx; print &quot;&#39;” $aa “&#39;&quot;xxxxxx&#39; #变量内有空格</code></pre>
+<h2 id="显示文件的一部分内容"><a href="#显示文件的一部分内容" class="headerlink" title="显示文件的一部分内容"></a>显示文件的一部分内容</h2><pre><code>sed -n &#39;x,yp&#39; filename #输出指定文件x行到y行的内容</code></pre>
+<h2 id="ubuntu-查看ipynb文件"><a href="#ubuntu-查看ipynb文件" class="headerlink" title="ubuntu 查看ipynb文件"></a>ubuntu 查看ipynb文件</h2><pre><code>jupyter notebook</code></pre>
+<p>启动服务后浏览器查看</p>
+<h2 id="0"><a href="#0" class="headerlink" title="$0"></a>$0</h2><p>在只检索PATH的命令里调用自身</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/10/12/MPI_command/MPI_command/" data-id="ckm7dzlq1000ewxuuhcfg0449" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2021/03/12/%E4%B8%8D%E5%8A%A0%E6%95%B4%E7%90%86%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/" data-id="ckm7dzlpx000cwxuugl4b1b8w" class="article-share-link">Share</a>
       
       
     </footer>
@@ -92,15 +109,20 @@
     
 <nav id="article-nav">
   
-    <a href="/2020/10/12/MPI_command/MPI_four_fundanmental/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2021/03/12/something/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          (no title)
+          something
         
       </div>
     </a>
   
+  
+    <a href="/2021/03/12/tmux/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">tmux command log</div>
+    </a>
   
 </nav>
 

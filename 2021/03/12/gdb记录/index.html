@@ -5,17 +5,17 @@
   
 
   
-  <title>XLT876</title>
+  <title>gdb command | XLT876</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="MPI_command[TOC] dwdwdwd dwdw .&#x2F;SUMMARY.md">
+  <meta name="description" content="启动gdb .&#x2F;omprsdft.x 显示源码l list 断点 设置b &quot;a function name, a line number,or an address of an instruction&quot; break   查看info break [n]  维护delete、clear、disable、enable    运行r run 并行调试mpirun -n 4  xfce4-terminal">
 <meta property="og:type" content="article">
-<meta property="og:title" content="XLT876">
-<meta property="og:url" content="http://yoursite.com/2020/10/12/MPI_command/MPI_command/index.html">
+<meta property="og:title" content="gdb command">
+<meta property="og:url" content="http://yoursite.com/2021/03/12/gdb%E8%AE%B0%E5%BD%95/index.html">
 <meta property="og:site_name" content="XLT876">
-<meta property="og:description" content="MPI_command[TOC] dwdwdwd dwdw .&#x2F;SUMMARY.md">
+<meta property="og:description" content="启动gdb .&#x2F;omprsdft.x 显示源码l list 断点 设置b &quot;a function name, a line number,or an address of an instruction&quot; break   查看info break [n]  维护delete、clear、disable、enable    运行r run 并行调试mpirun -n 4  xfce4-terminal">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-10-12T08:38:26.960Z">
-<meta property="article:modified_time" content="2020-10-12T08:38:28.180Z">
+<meta property="article:published_time" content="2021-03-12T13:21:07.443Z">
+<meta property="article:modified_time" content="2021-03-12T13:21:07.443Z">
 <meta property="article:author" content="xlt876">
 <meta name="twitter:card" content="summary">
   
@@ -64,26 +64,48 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-MPI_command/MPI_command" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-gdb记录" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/10/12/MPI_command/MPI_command/" class="article-date">
-  <time datetime="2020-10-12T08:38:26.960Z" itemprop="datePublished">2020-10-12</time>
+    <a href="/2021/03/12/gdb%E8%AE%B0%E5%BD%95/" class="article-date">
+  <time datetime="2021-03-12T13:21:07.443Z" itemprop="datePublished">2021-03-12</time>
 </a>
     
   </div>
   <div class="article-inner">
     
     
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      gdb command
+    </h1>
+  
+
+      </header>
+    
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="MPI-command"><a href="#MPI-command" class="headerlink" title="MPI_command"></a>MPI_command</h1><p>[TOC] dwdwdwd</p>
-<p><a href="./">dwdw</a></p>
-<p><span id='sss'>./SUMMARY.md</span></p>
+        <h3 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h3><pre class=" language-bash"><code class="language-bash">gdb ./omprsdft.x</code></pre>
+<h3 id="显示源码"><a href="#显示源码" class="headerlink" title="显示源码"></a>显示源码</h3><pre class=" language-bash"><code class="language-bash">l
+list</code></pre>
+<h3 id="断点"><a href="#断点" class="headerlink" title="断点"></a>断点</h3><ul>
+<li><h4 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h4><pre class=" language-bash"><code class="language-bash">b <span class="token string">"a function name, a line number,or an address of an instruction"</span>
+<span class="token keyword">break</span> </code></pre>
+</li>
+<li><h4 id="查看"><a href="#查看" class="headerlink" title="查看"></a>查看</h4><pre class=" language-bash"><code class="language-bash">info <span class="token keyword">break</span> <span class="token punctuation">[</span>n<span class="token punctuation">]</span></code></pre>
+</li>
+<li><h4 id="维护"><a href="#维护" class="headerlink" title="维护"></a>维护</h4><pre class=" language-bash"><code class="language-bash">delete、clear、disable、enable </code></pre>
+</li>
+</ul>
+<h3 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h3><pre class=" language-bash"><code class="language-bash">r
+run</code></pre>
+<h3 id="并行调试"><a href="#并行调试" class="headerlink" title="并行调试"></a>并行调试</h3><pre class=" language-bash"><code class="language-bash">mpirun -n 4  xfce4-terminal --default-working-directory<span class="token operator">=</span><span class="token variable"><span class="token variable">`</span><span class="token function">pwd</span><span class="token variable">`</span></span> -e <span class="token string">"gdb ./aa"</span></code></pre>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/10/12/MPI_command/MPI_command/" data-id="ckm7dzlq1000ewxuuhcfg0449" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2021/03/12/gdb%E8%AE%B0%E5%BD%95/" data-id="ckm7dzlpq0004wxuuaphpendz" class="article-share-link">Share</a>
       
       
     </footer>
@@ -92,15 +114,20 @@
     
 <nav id="article-nav">
   
-    <a href="/2020/10/12/MPI_command/MPI_four_fundanmental/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2021/03/12/debug%E8%AE%B0%E5%BD%95/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          (no title)
+          debug log
         
       </div>
     </a>
   
+  
+    <a href="/2021/03/12/git%E5%91%BD%E4%BB%A4/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">git command</div>
+    </a>
   
 </nav>
 
