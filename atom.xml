@@ -6,7 +6,7 @@
   <link href="http://xlt876.github.io/atom.xml" rel="self"/>
   
   <link href="http://xlt876.github.io/"/>
-  <updated>2021-03-12T13:21:07.443Z</updated>
+  <updated>2023-03-03T12:32:47.573Z</updated>
   <id>http://xlt876.github.io/</id>
   
   <author>
@@ -17,137 +17,28 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>git_command</title>
-    <link href="http://xlt876.github.io/2021/03/12/SUMMARY/"/>
-    <id>http://xlt876.github.io/2021/03/12/SUMMARY/</id>
-    <published>2021-03-12T13:21:07.443Z</published>
-    <updated>2021-03-12T13:21:07.443Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>debug log</title>
-    <link href="http://xlt876.github.io/2021/03/12/debug%E8%AE%B0%E5%BD%95/"/>
-    <id>http://xlt876.github.io/2021/03/12/debug%E8%AE%B0%E5%BD%95/</id>
-    <published>2021-03-12T13:21:07.443Z</published>
-    <updated>2021-03-12T13:21:07.443Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>gdb command</title>
-    <link href="http://xlt876.github.io/2021/03/12/gdb%E8%AE%B0%E5%BD%95/"/>
-    <id>http://xlt876.github.io/2021/03/12/gdb%E8%AE%B0%E5%BD%95/</id>
-    <published>2021-03-12T13:21:07.443Z</published>
-    <updated>2021-03-12T13:21:07.443Z</updated>
+    <link href="http://xlt876.github.io/2023/03/03/gdb%E8%AE%B0%E5%BD%95/"/>
+    <id>http://xlt876.github.io/2023/03/03/gdb%E8%AE%B0%E5%BD%95/</id>
+    <published>2023-03-03T12:32:47.573Z</published>
+    <updated>2023-03-03T12:32:47.573Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
     
     
     
     
-  </entry>
-  
-  <entry>
-    <title>git command</title>
-    <link href="http://xlt876.github.io/2021/03/12/git%E5%91%BD%E4%BB%A4/"/>
-    <id>http://xlt876.github.io/2021/03/12/git%E5%91%BD%E4%BB%A4/</id>
-    <published>2021-03-12T13:21:07.443Z</published>
-    <updated>2021-03-12T13:21:07.443Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://xlt876.github.io/2021/03/12/hello-world/"/>
-    <id>http://xlt876.github.io/2021/03/12/hello-world/</id>
-    <published>2021-03-12T13:21:07.443Z</published>
-    <updated>2021-03-12T13:21:07.443Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>python log</title>
-    <link href="http://xlt876.github.io/2021/03/12/python/"/>
-    <id>http://xlt876.github.io/2021/03/12/python/</id>
-    <published>2021-03-12T13:21:07.443Z</published>
-    <updated>2021-03-12T13:21:07.443Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
+    <category term="encrypt" scheme="http://xlt876.github.io/tags/encrypt/"/>
     
   </entry>
   
   <entry>
     <title>question</title>
-    <link href="http://xlt876.github.io/2021/03/12/question/"/>
-    <id>http://xlt876.github.io/2021/03/12/question/</id>
-    <published>2021-03-12T13:21:07.443Z</published>
-    <updated>2021-03-12T13:21:07.443Z</updated>
+    <link href="http://xlt876.github.io/2023/03/03/question/"/>
+    <id>http://xlt876.github.io/2023/03/03/question/</id>
+    <published>2023-03-03T12:06:17.438Z</published>
+    <updated>2023-03-03T12:06:17.438Z</updated>
     
     
       
@@ -160,15 +51,17 @@
     
     
     
+    
+    <category term="encrypt" scheme="http://xlt876.github.io/tags/encrypt/"/>
     
   </entry>
   
   <entry>
-    <title>scalapack log</title>
-    <link href="http://xlt876.github.io/2021/03/12/scalapack/"/>
-    <id>http://xlt876.github.io/2021/03/12/scalapack/</id>
-    <published>2021-03-12T13:21:07.443Z</published>
-    <updated>2021-03-12T13:21:07.443Z</updated>
+    <title>python log</title>
+    <link href="http://xlt876.github.io/2023/03/03/python/"/>
+    <id>http://xlt876.github.io/2023/03/03/python/</id>
+    <published>2023-03-03T12:05:08.409Z</published>
+    <updated>2023-03-03T12:05:08.409Z</updated>
     
     
       
@@ -181,15 +74,17 @@
     
     
     
+    
+    <category term="encrypt" scheme="http://xlt876.github.io/tags/encrypt/"/>
     
   </entry>
   
   <entry>
-    <title>shell command</title>
-    <link href="http://xlt876.github.io/2021/03/12/shell%E5%91%BD%E4%BB%A4/"/>
-    <id>http://xlt876.github.io/2021/03/12/shell%E5%91%BD%E4%BB%A4/</id>
-    <published>2021-03-12T13:21:07.443Z</published>
-    <updated>2021-03-12T13:21:07.443Z</updated>
+    <title>git command</title>
+    <link href="http://xlt876.github.io/2023/03/03/git%E5%91%BD%E4%BB%A4/"/>
+    <id>http://xlt876.github.io/2023/03/03/git%E5%91%BD%E4%BB%A4/</id>
+    <published>2023-03-03T12:04:53.217Z</published>
+    <updated>2023-03-03T12:04:53.217Z</updated>
     
     
       
@@ -203,56 +98,16 @@
     
     
     
-  </entry>
-  
-  <entry>
-    <title>something</title>
-    <link href="http://xlt876.github.io/2021/03/12/something/"/>
-    <id>http://xlt876.github.io/2021/03/12/something/</id>
-    <published>2021-03-12T13:21:07.443Z</published>
-    <updated>2021-03-12T13:21:07.443Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>tmux command log</title>
-    <link href="http://xlt876.github.io/2021/03/12/tmux/"/>
-    <id>http://xlt876.github.io/2021/03/12/tmux/</id>
-    <published>2021-03-12T13:21:07.443Z</published>
-    <updated>2021-03-12T13:21:07.443Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
+    <category term="encrypt" scheme="http://xlt876.github.io/tags/encrypt/"/>
     
   </entry>
   
   <entry>
     <title>奇技淫巧</title>
-    <link href="http://xlt876.github.io/2021/03/12/%E4%B8%8D%E5%8A%A0%E6%95%B4%E7%90%86%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/"/>
-    <id>http://xlt876.github.io/2021/03/12/%E4%B8%8D%E5%8A%A0%E6%95%B4%E7%90%86%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/</id>
-    <published>2021-03-12T13:21:07.443Z</published>
-    <updated>2021-03-12T13:21:07.443Z</updated>
+    <link href="http://xlt876.github.io/2023/03/03/shell_odd/"/>
+    <id>http://xlt876.github.io/2023/03/03/shell_odd/</id>
+    <published>2023-03-03T12:04:14.529Z</published>
+    <updated>2023-03-03T12:04:14.529Z</updated>
     
     
       
@@ -265,15 +120,109 @@
     
     
     
+    
+    <category term="encrypt" scheme="http://xlt876.github.io/tags/encrypt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>shell command</title>
+    <link href="http://xlt876.github.io/2023/03/03/shell%E5%91%BD%E4%BB%A4/"/>
+    <id>http://xlt876.github.io/2023/03/03/shell%E5%91%BD%E4%BB%A4/</id>
+    <published>2023-03-03T12:03:56.356Z</published>
+    <updated>2023-03-03T12:03:56.356Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="encrypt" scheme="http://xlt876.github.io/tags/encrypt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>tmux command log</title>
+    <link href="http://xlt876.github.io/2023/03/03/tmux/"/>
+    <id>http://xlt876.github.io/2023/03/03/tmux/</id>
+    <published>2023-03-03T12:03:50.524Z</published>
+    <updated>2023-03-03T12:03:50.524Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="encrypt" scheme="http://xlt876.github.io/tags/encrypt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>something</title>
+    <link href="http://xlt876.github.io/2023/03/03/something/"/>
+    <id>http://xlt876.github.io/2023/03/03/something/</id>
+    <published>2023-03-03T12:03:42.760Z</published>
+    <updated>2023-03-03T12:03:42.760Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="encrypt" scheme="http://xlt876.github.io/tags/encrypt/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>debug log</title>
+    <link href="http://xlt876.github.io/2023/03/03/debug%E8%AE%B0%E5%BD%95/"/>
+    <id>http://xlt876.github.io/2023/03/03/debug%E8%AE%B0%E5%BD%95/</id>
+    <published>2023-03-03T12:02:52.504Z</published>
+    <updated>2023-03-03T12:02:52.504Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"></summary>
+        
+      
+    
+    
+    
+    
+    <category term="encrypt" scheme="http://xlt876.github.io/tags/encrypt/"/>
     
   </entry>
   
   <entry>
     <title>cluster</title>
-    <link href="http://xlt876.github.io/2021/03/12/cluster/"/>
-    <id>http://xlt876.github.io/2021/03/12/cluster/</id>
-    <published>2021-03-12T13:21:07.439Z</published>
-    <updated>2021-03-12T13:21:07.439Z</updated>
+    <link href="http://xlt876.github.io/2023/03/03/cluster/"/>
+    <id>http://xlt876.github.io/2023/03/03/cluster/</id>
+    <published>2023-03-03T12:02:45.096Z</published>
+    <updated>2023-03-03T12:02:45.096Z</updated>
     
     
       
@@ -286,15 +235,17 @@
     
     
     
+    
+    <category term="encrypt" scheme="http://xlt876.github.io/tags/encrypt/"/>
     
   </entry>
   
   <entry>
     <title>crontab的使用心得</title>
-    <link href="http://xlt876.github.io/2021/03/12/crontab%E7%9A%84%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/"/>
-    <id>http://xlt876.github.io/2021/03/12/crontab%E7%9A%84%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</id>
-    <published>2021-03-12T13:21:07.439Z</published>
-    <updated>2021-03-12T13:21:07.439Z</updated>
+    <link href="http://xlt876.github.io/2023/03/03/crontab%E7%9A%84%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/"/>
+    <id>http://xlt876.github.io/2023/03/03/crontab%E7%9A%84%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/</id>
+    <published>2023-03-03T12:02:32.704Z</published>
+    <updated>2023-03-03T12:02:32.704Z</updated>
     
     
       
@@ -308,47 +259,7 @@
     
     
     
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://xlt876.github.io/2020/10/12/MPI_command/MPI_four_fundanmental/"/>
-    <id>http://xlt876.github.io/2020/10/12/MPI_command/MPI_four_fundanmental/</id>
-    <published>2020-10-12T08:41:03.366Z</published>
-    <updated>2020-10-12T08:41:03.366Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="http://xlt876.github.io/2020/10/12/MPI_command/MPI_command/"/>
-    <id>http://xlt876.github.io/2020/10/12/MPI_command/MPI_command/</id>
-    <published>2020-10-12T08:38:26.960Z</published>
-    <updated>2020-10-12T08:38:28.180Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
+    <category term="encrypt" scheme="http://xlt876.github.io/tags/encrypt/"/>
     
   </entry>
   
